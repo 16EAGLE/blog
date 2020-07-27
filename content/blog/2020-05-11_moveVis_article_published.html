@@ -1,0 +1,39 @@
+---
+title: "Visualizing movement trajectories in R using moveVis: Article published in the latest issue of Methods in Ecology and Evolution"
+description: "The peer-reviewed article accompanying the moveVis R package has been published in the journal 'Methods in Ecology and Evolution'."
+date: "2020-05-11T11:22:00-00:00"
+draft: false
+author: "Jakob Schwalb-Willmann"
+keywords: ["R", "moveVis", "publication", "MEE", "visualization", "movement"]
+tags: ["R", "moveVis", "publication", "MEE", "visualization", "movement"]
+slug: "moveVis-published-in-mee"
+stylesheet: post.css
+---
+
+
+
+<video autoplay controls loop>
+<source src="/vid/moveVis-published-in-mee_vid1.webm" type="video/webm">
+<source src="/vid/moveVis-published-in-mee_vid1.mp4" type="video/mp4">
+<source src="/vid/moveVis-published-in-mee_vid1.mov" type="video/mov">
+</video>
+<figcaption>
+<em>Figure 1: Migratory movements of white storks Ciconia ciconia on a Mapbox satellite base map</em>
+</figcaption>
+<p>This month, our <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13374">open-access paper</a> on visualizing movement trajectories in R using <code>moveVis</code> has been published in the <a href="https://methodsblog.com/2020/05/05/issue-11-5-our-may-issue-is-now-online/">latest issue</a> of <em>Methods in Ecology and Evolution</em>. The article describes the <code>moveVis</code> user functions, explains their technical implementation, provides use cases and discusses its strengths and limitations.</p>
+<p>The visualization of movement trajectories sometimes is not easy. Spatial data without a temporal component can often be sufficiently visualized using a plot or map of two dimensions, x and y. Movement trajectories, however, are spatio‐temporal data that represent the change in the spatial location of tracked objects or individuals over time. To account for their temporal component, the representation of time in a third dimension is required. While, in certain cases, it can be sufficient to use a static spatial plot to indicate time, e.g. by using a colour palette or by adding a z axis (space-time cubes), a spatio-temporal animation directly relates the temporal dimension of the data to actual time.</p>
+<br>
+<video autoplay controls loop>
+<source src="/vid/moveVis-published-in-mee_vid2.webm" type="video/webm">
+<source src="/vid/moveVis-published-in-mee_vid2.mp4" type="video/mp4">
+<source src="/vid/moveVis-published-in-mee_vid2.mov" type="video/mov">
+</video>
+<figcaption>
+<em>Figure 2: Migratory movements of white storks Ciconia ciconia on a temporally interpolated MODIS MOD13Q1 NDVI time series</em>
+</figcaption>
+<p>To ease the creation of such animations, the <a href="https://movevis.org/">R package <code>moveVis</code></a> has been developed. <code>moveVis</code> automates the processing of movement and environmental data to turn them into an animation. We deem <code>moveVis</code> to be a useful tool for visually exploring and interpreting movement patterns, including potential interactions of individuals with each other and their environment, and communicate such patterns appropriately to different kinds of audiences.</p>
+<p>The online version of our <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13374">open-access paper</a> includes a detailed <a href="https://besjournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F2041-210X.13374&amp;file=mee313374-sup-0001-AppendixS1.docx">worked example</a> using migratory movement trajectories of white storks, the resulting video animations (<a href="https://besjournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F2041-210X.13374&amp;file=mee313374-sup-0002-VideoS2.mov">video 1</a>, <a href="https://besjournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F2041-210X.13374&amp;file=mee313374-sup-0003-VideoS3.mov">video 2</a> &amp; <a href="https://besjournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F2041-210X.13374&amp;file=mee313374-sup-0004-VideoS4.mov">video 3</a>) and an <a href="https://besjournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F2041-210X.13374&amp;file=mee313374-sup-0005-TableS1.docx">overview</a> of all <code>moveVis</code> functions and their purposes.</p>
+<p>To get started using <code>moveVis</code>, we recommend to have a look at our examples and documentation on <a href="https://movevis.org/">movevis.org</a>. The <a href="https://github.com/16EAGLE/moveVis">source code</a> of <code>moveVis</code> is openly available on GitHub and has been published under GPL-3. If you have ideas on how to improve <code>moveVis</code> (e.g. missing features that could be useful) or if you encounter bugs or have other problems, feel free to open an <a href="https://github.com/16EAGLE/moveVis/issues">issue on GitHub</a> for discussion.</p>
+<p><strong>Reference:</strong>
+Schwalb-Willmann, J.; Remelgado, R.; Safi, K.; Wegmann, M. (2020). moveVis: Animating movement trajectories in synchronicity with static or temporally dynamic environmental data in R. Methods Ecol Evol. 2020; 11: 664–669. <a href="https://doi.org/10.1111/2041-210X.13374" class="uri">https://doi.org/10.1111/2041-210X.13374</a></p>
+<p><em>A similar version of this blog post has originally also been published at <a href="http://animove.org/visualizing-movement-trajectories-in-r-using-movevis-article-published-in-the-latest-issue-of-methods-in-ecology-and-evolution/" target="_blank">AniMove.org</a>.</em></p>

@@ -1,0 +1,36 @@
+---
+title: "Visualizing the movements of Procellariiformes and Sea Surface Temperature using moveVis"
+description: "This animation shows the movement of Procellariiformes near Marion Island, South Africa, against the multi-temporal, daily NOAA sea surface temperature product G1SST."
+date: "2017-09-13T08:00:00-00:00"
+draft: false
+keywords: ["R", "moveVis", "visualization", "movement"]
+tags: ["R", "moveVis", "visualization", "movement"]
+slug: "procellariiformes-animation-using-moveVis"
+stylesheet: post.css
+---
+
+![albatross](/img/albatross.jpg)
+<figcaption>*Figure 1: An Albatross in the air. Source: pexels.com*</figcaption>
+
+In the framework of the AniMove summer school 2017, the <a href="http://www.movevis.org" target="_blank">moveVis R package</a> was introduced to the participants, resulting in several likewise interesting and beautiful animal movement animations. The shown animation displays the movement of Procellariiformes near Marion Island, South Africa, against the multi-temporal, daily NOAA sea surface temperature product G1SST. It was created by Tegan Carpenter-Kling, who is a PhD candidate within the <a href="http://mapru.mandela.ac.za/People" target="_blank">Marine Apex Predator Research Unit (MAPRU)</a> based at Nelson Mandela University in Port Elizabeth, South Africa. A large section of her research will focus on quantifying how land based marine predators, such as seabirds and seals, utilize the ocean environment and its resources, with special attention to mechanisms of foraging segregation during the breeding season.
+
+<br>
+<video autoplay controls loop>
+   <source src="/vid/procellariiformes-sst_vid1.webm" type="video/webm">
+   <source src="/vid/procellariiformes-sst_vid1.mp4" type="video/mp4">
+   <source src="/vid/procellariiformes-sst_vid1.mov" type="video/mov">
+</video>
+<figcaption>*Figure 2: Movements of Procellariiformes and Sea Surface Temperature.*</figcaption>
+
+For animating her movement and environmental data, Tegan used the animate_move function within the moveVis R package, which is capable of visualizing the tracks of multiple individuals in front of either a static base map or a dynamically changing set of user-defined layers, e. g. representing an environmental variable. In addition, the function offers several path modes, which define the treatment of time information, options for adding static elements such as annotated points, lines or polygons to the animation and more.
+
+moveVis is a tool for displaying animal (and other) movement data together with environmental data to visualize interactions between individuals and possible influences of environmental variables on movement behaviour. moveVis is on CRAN and can be installed simply:
+
+```R
+## install moveVis from CRAN
+install.packages("moveVis")
+```
+
+For more information on moveVis, further example animations and a guide for getting started, visit movevis.org. To learn more about Procellariiformes, get in touch with <a href="http://www.twitter.com/TCarpenterKling" target="_blank">Tegan Carpenter-Kling on twitter</a>.
+
+*A similar version of this blog post has also been published at <a href="http://animove.org/made-with-movevis-movement-of-procellariiformes-and-sea-surface-temperature-marion-island/" target="_blank">AniMove.org</a>.*

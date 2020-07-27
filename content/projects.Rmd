@@ -1,0 +1,46 @@
+---
+date: "`r format(Sys.time(), '%Y-%m-%dT%H:%M:%S-00:00')`"
+description: Projects
+draft: false
+keywords:
+- projects
+stylesheet: post.css
+title: Projects
+---
+
+<video autoplay controls loop>
+   <source src="/vid/projects.webm" type="video/webm">
+   <source src="/vid/projects.mp4" type="video/mp4">
+   <source src="/vid/projects.mov" type="video/mov">
+</video>
+<figcaption>*Migration of White Storks, tracked between 2011 and 2017 by the Max Planck Institute of Animal Behavior, on top of a dynamic NASA Blue Marble background representing global seasonality, animated using moveVis. Video copyright: Jakob Schwalb-Willmann*</figcaption>
+
+## PhD
+
+Research project on the *"Potentials of animal-environment interactions for remote sensing research"*, supervised by Prof. Dr. Stefan Dech (Earth Observation Center at the German Aerospace Center, DLR) and Prof. Dr. Martin Wikelski (Max Planck Institute for Animal Behavior)
+
+## MSc.
+
+Thesis: Schwalb-Willmann, J. (2018). [A deep learning movement prediction framework for identifying anomalies in animal-environment interactions](https://elib.dlr.de/123853/). Master's, Julius Maximilians University Würzburg/German Aerospace Center (DLR).
+
+## BSc.
+
+Thesis: Schwalb-Willmann, J. (2016). [Comparison of different algorithms for calculating broadband albedo from AVHRR data](https://elib.dlr.de/107761/). Bachelor's, Ludwig Maximilians University Munich/German Aerospace Center (DLR).
+
+
+## Open Source
+
+### Creations
+
+[`moveVis`](http://movevis.org), an `R` package providing tools to visualize movement data (e.g. from GPS tracking) and temporal changes of environmental data (e.g. from remote sensing) by creating video animations. A [peer-reviewed open-access](https://doi.org/10.1111/2041-210X.13374) paper accompanying `moveVis` has been published in *Methods in Ecology and Evolution*.
+
+[`getSpatialData`](http://jxsw.de/getSpatialData), an `R` package enabling homogeneous and reproducible workflows to query, preview, analyze, select, order and download various kinds of spatial datasets from open sources.
+
+[`basemaps`](http://jxsw.de/basemaps), an `R` package to download and cache spatial basemaps from open sources such as *OpenStreetMap*, *Carto* and *Mapbox*.
+
+### Contributions
+
+[`RStoolbox`](https://bleutner.github.io/RStoolbox/), an R package providing a wide range of tools for every-day remote sensing processing needs.
+
+*Visit my GitHub profile for more details on my open source contributions: https://github.com/16EAGLE*
+

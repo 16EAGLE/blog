@@ -1,0 +1,21 @@
+{
+  "name": "hugo-theme-codex",
+  "version": "1.3.0",
+  "author": "Jake Wiesler",
+  "description": "A minimal blog theme for Hugo",
+  "license": "MIT",
+  "scripts": {
+    "develop": "hugo server -s ./exampleSite/"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 2%"
+  ],
+  "homepage": "https://github.com/jakewies/hugo-theme-codex",
+  "bugs": "https://github.com/jakewies/hugo-theme-codex/issues",
+  "keywords": [
+    "hugo",
+    "blog",
+    "go"
+  ]
+}

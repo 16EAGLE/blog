@@ -1,0 +1,15 @@
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons__icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  &:not(:last-child) {
+    margin-right: 2em;
+  }
+}

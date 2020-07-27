@@ -1,0 +1,38 @@
+---
+date: "`r format(Sys.time(), '%Y-%m-%dT%H:%M:%S-00:00')`"
+description: Talks
+draft: false
+keywords:
+- talks
+stylesheet: post.css
+title: Talks & Teaching
+---
+
+![Teaching at Yale](/img/teaching.jpg)
+<figcaption>*Teaching at the AniMove Science School 2019 at Yale University, USA*</figcaption>
+
+## 2020
+
+Seminar **"Advanced Programming for Spatial Analysis"**, [EAGLE MSc.](http://eagle-science.org): Practical training to strengthen technical and methodological skills in machine learning (deep neural networks for computer vision, deep learning, discriminative modeling), machine-to-machine communication and creating efficient local and cloud-based development environments for `Python` and `R`.
+
+Seminar **"Scientific Graphics"**, [EAGLE MSc.](http://eagle-science.org): Training to improve skills in creating scientific graphics using `R` and `LaTeX`, and communicating scientific work through web applications using shiny in `R`.
+
+Seminar (Block) **"Spectral Unmixing of Hyperspectral Remote Sensing Imagery"**, [EAGLE MSc.](http://eagle-science.org): Introduction to spectral unmixing theory, physical principles, established methods and practical tools using `QGIS` and `R`.
+
+## 2019
+
+Seminar **"Visualizing Animal Movement in Synchronicity with Environmental Data using moveVis"**, [AniMove Science School 2019](http://animove.org/courses/yale-2019/), Yale University, CT, USA.
+
+Seminar **"Introduction to Remote Sensing"**, [AniMove Science School 2019](http://animove.org), Yale University, CT, USA.
+
+Seminar **"Advanced Programming for Spatial Analysis"**, [EAGLE MSc.](http://eagle-science.org): Practical training to strengthen technical and methodological skills in machine learning (deep neural networks for computer vision, deep learning, discriminative modeling), machine-to-machine communication and creating efficient local and cloud-based development environments for `Python` and `R`.
+
+Guest Lecture **"Animal Movement Tracking for Remote Sensing"**, [Geography BSc.](https://www.geographie.uni-wuerzburg.de/en/studies/): Potentials of integrating animal movement tracking data with remote sensing.
+
+## 2018
+
+Seminar **"Visualizing Animal Movement in Synchronicity with Environmental Data using moveVis"**, [AniMove Science School 2018](http://animove.org/courses/animove-2018/), Max Planck Institute for Animal Behavior, Radolfzell, Germany.
+
+## 2017
+
+Seminar **"Visualizing Animal Movement in Synchronicity with Environmental Data using moveVis"**, [AniMove Science School 2017](http://animove.org/courses/2017-mpi/), Max Planck Institute for Animal Behavior, Radolfzell, Germany.

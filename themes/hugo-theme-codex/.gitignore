@@ -1,0 +1,12 @@
+node_modules
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode
+
+# Hugo
+**/resources/_gen
+public/

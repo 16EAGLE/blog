@@ -1,0 +1,16 @@
+---
+heading: Jakob Schwalb-Willmann
+subheading: Spatial Data Science, Earth Observation & Geoanalysis
+description: About
+title: About
+---
+
+Welcome at [jakob.schwalb-willmann.de](http://jakob.schwalb-willmann.de), a page about what I do and like, and what I am interested in. This includes spatial data science, Earth observation, geoanalysis, scientific software development (R, Python, & sometimes C++), machine learning, animal movement tracking, risk detection and forests. I like rockets, outer space and open source.
+
+I am a spatial data scientist, specialized in Earth observation and geoanalysis. Professionally, I am passionate about jointly analyzing animal movement tracking data and synchronous environmental data. My research aims to utilize animals as environmental agents by learning patterns in the interaction of animal movement behaviors and prevalent environmental conditions to predict such environmental conditions from movement data.
+
+Currently, I am working at the [Department of Remote Sensing](https://www.geographie.uni-wuerzburg.de/en/fernerkundung/startseite/) of the [University of Wuerzburg](https://www.uni-wuerzburg.de/en/home/), where I am conducting my PhD research in cooperation with the [German Aerospace Center (DLR)](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-5227/) and the [Max Planck Institue for Animal Behavior](https://www.ab.mpg.de/).
+
+Beyond this privately maintained page, you can find me on the web [here](https://www.geographie.uni-wuerzburg.de/fernerkundung/personen/jakob-schwalb-willmann-msc/), [here](http://eagle-science.org/schwalb-willmann/) and [here](http://students.eagle-science.org/students/students-2016/jakob-schwalb-willmann/) or on [Twitter](https://twitter.com/schwalbwillmann) and [GitHub](https://github.com/16eagle). Thank you for stopping by!
+
+*Last updated: `r format(Sys.time(), '%Y-%m-%d')`*

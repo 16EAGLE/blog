@@ -1,0 +1,36 @@
+---
+title: "Visualizing migratory movement of Turkey Vultures and NDVI using moveVis"
+description: "This animation shows the outbound migration paths of 10 Turkey Vultures, moving from southern California, U.S., towards Mexico in 2014, against the Normalized Difference Vegetation Index (NDVI) derived from MODIS data."
+date: "2017-10-11T08:12:00-00:00"
+draft: false
+keywords: ["R", "moveVis", "visualization", "movement"]
+tags: ["R", "moveVis", "visualization", "movement"]
+slug: "turkey-vulture-animation-using-moveVis"
+stylesheet: post.css
+---
+
+![turkeyvulture](/img/turkeyvulture.jpg)
+<figcaption>*Figure 1: An Eastern Turkey Vulture (C. a. septentrionalis) in flight (Canada). Source: Peter K Burian/[CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0)*</figcaption>
+
+The Turkey Vulture (Cathartes aura) is the most widespread scavenging bird on the american continents, ranging from southern Canada to the tip of South America. Since 2003, the <a href="http://www.hawkmountain.org/" target="_blank">Hawk Mountain Sanctuary</a> is collecting movement data of Turkey Vultures to investigate their migration behaviours, using radio tags monitored by satellite. 21 Turkey Vultures have been tracked during that period of time. The dataset is available on <a href="http://www.movebank.org/" target="_blank">Movebank</a> (Movebank ID: 481458). To learn more about the Turkey Vulture in general, read a detailed <a href="http://www.hawkmountain.org/raptorpedia/hawks-at-hawk-mountain/hawk-species-at-hawk-mountain/turkey-vulture/page.aspx?id=644" target="_blank">overview of the species here</a> at the Hawk Mountain Sanctuary website.
+
+<p><iframe src="https://www.youtube.com/embed/sNMAIcY1eq0?rel=0" width="100%" height="400" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<figcaption>*Figure 2: Migratory movements of Turkey Vultures on a temporally interpolated 16-day NDVI MODIS product.*</figcaption>
+
+The shown video animation visualizes the southbound migration paths of 10 individuals, moving from southern California, U.S., towards Mexico in 2014, against the Normalized Difference Vegetation Index (NDVI) derived from MODIS data (dynamic, temporal resolution of 1 day, computed from fusing daily and interpolated 16-days NDVI products). Besides displaying the spatial movement, the graphs on the right give information on the map values overflown by each bird and the overall population, compared to the value distribution of the image.
+
+<p><iframe width="100%" height="400" src="https://www.youtube.com/embed/Vjl2xHw-tYk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+<figcaption>*Figure 3: Migratory movements of Turkey Vultures on a satellite basemap.*</figcaption>
+
+For animating both movement and environmental data, the animate_move function of the moveVis R package was used, which is capable of visualizing movement tracks of multiple individuals in front of either a static base map or a dynamically changing set of user-defined layers, e. g. representing an environmental variable. In addition, the function offers several path modes, which define the treatment of time information, options for adding static elements such as annotated points, lines or polygons to the animation and more.
+
+moveVis is an R package for displaying animal (or other kinds of) movement as video animations. The movement paths can be overlayed on dynamic or static environmental data to visualize interactions between individuals and possible influences of environmental variables on movement behaviours. moveVis is on CRAN and can be installed simply:
+
+```R
+## install moveVis from CRAN
+install.packages("moveVis")
+```
+
+For more information on moveVis, further example animations and a guide for getting started, visit <a href="http://www.movevis.org" target="_blank">www.movevis.org</a>. Visit the <a href="https://twitter.com/Hawk_Mountain" target="_blank">twitter profile of Hawk Mountain Sanctuary here</a>.
+
+*The presented data have been used with permission by D. Barber. Times are UTC. A similar version of this blog post has also been published at <a href="http://animove.org/migratory-movement-of-turkey-vultures-and-ndvi-south-california-u-s-and-mexico-made-with-movevis/" target="_blank">AniMove.org</a>.*
