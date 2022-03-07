@@ -1,0 +1,10 @@
+edited files:
+archetypes/blog.md
+archetypes/default.md
+layouts/_default/single.html
+assets/scss/pages/post.scss
+assets/scss/partials/_colors.scss
+assets/scss/partials/_nav.scss
+layouts/index.html
+layouts/_default/single.html
+

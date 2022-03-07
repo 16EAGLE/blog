@@ -1,6 +1,6 @@
 # build site
 cat("Build site\n")
-blogdown::build_site()
+blogdown::build_site(build_rmd = T)
 cat("Serve site\n")
 blogdown::serve_site()
 
@@ -22,5 +22,5 @@ catch <- mapply(x = files, y = menu, function(x, y){
 
 # close down
 cat("Stop serve\n")
-#blogdown::stop_server()
+blogdown::stop_server()
 

@@ -11,13 +11,39 @@ title: Talks & Teaching
 ![Teaching at Yale](/img/teaching.jpg)
 <figcaption>*Teaching at the AniMove Science School 2019 at Yale University, USA*</figcaption>
 
+## 2022
+
+Seminar **"Introduction into animal movement data analysis"**, [EAGLE MSc.](http://eagle-science.org): Backgrounds; effects of discretely observing continuous processes (sampling rate, autocorrelation, bias etc.); scale-dependencies/matching of tracking & environmental data; tracking approaches & location error; introduction into geometric & variance component analyses, behavioral segmentation, area-metrics such as home ranges, remote-sensing driven trajectory analysis, incl. corridor analysis, habitat analysis, resource utilization, resource selection, step selection etc.
+
+Seminar **"Remote Sensing for ecological analyses"**, [Biology MSc.](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/): Remote sensing in ecology; assessment of data requirements based on observation target & modelling aim; ground truth; ground truth pre-processing; remote sensing data acquisition & pre-processing; supervised regression & classification modelling; data visualization & map making.
+
+Seminar **"Introduction into Earth Observation and geo-spatial data"**, [Biology MSc.](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/): Remote sensing applications; physical principles (electromagnetic radiation, absorption, emission, reflectance, optics, spectral information); spatial raster & vector data types; coordinate reference systems & projections; *QGIS* & `R`; `R` for spatial & remote sensing data analysis; spectral indices; basic modelling (classifiers, regressions); generating experience-driven ground truth using digitization; supervised classifications; (statistical) validation; accuracy assessment; scale of data vs. scale of observation targets; resolutions.
+
+## 2021
+
+Lecture **"Applications of remote sensing"**, [EAGLE MSc.](http://eagle-science.org): Remote sensing of forests, vulnerabilities & risks, biodiversity, wildlife ecology, natural resources, fire & burnt areas, coasts, diseases & health, agriculture, soil, land cover & land use, human settlements, policy etc.
+
+Course **"Introduction into programming and GIS"**, [EAGLE MSc.](http://eagle-science.org): Basics of `R` & *QGIS*; version control using *git*; `R` in comparison to other languages (interpreter vs. compiler, memory management etc.); programming paradigms; procedural vs. object-oriented vs. functional programming; types/modes, structures, indexing; implicit vs. explicit type conversion; control flow constructs & vectorization; functions; package building; data visualization; statistics; spatial data analysis; image processing; classification models etc.
+
+Seminar **"Deep Learning for remote sensing"**, [EAGLE MSc.](http://eagle-science.org): Introduction to Machine Learning, Neural Networks & Deep Learning; loss, backpropagation, optimization & learning rate; activation functions & vanishing gradients; regularization & over-/underfitting; convolutions & stateless layers; u-nets; augmentation; *Googel Colab*; *keras* & *tensorflow* for `R` and *Python*; the building of sequential dense neural networks for multi-label image classifications, the building of sequential convolutional neural networks for binary classifications, the building of U-nets for binary segmentations.
+
+Seminar **"Hyperspectral remote sensing"**, [EAGLE MSc.](http://eagle-science.org): Spectrometric field sampling, spectral unmixing in `R` & *QGIS*
+
+Seminar **"Scientific graphics"**, [EAGLE MSc.](http://eagle-science.org): (Interactive) visualizations using `LaTeX`, `ggplot2`, `plotly`, `leaflet` & `shiny`/`bootstrap`
+
+Seminar **"Introduction into animal movement data analysis"**, [EAGLE MSc.](http://eagle-science.org): Backgrounds; effects of discretely observing continuous processes (sampling rate, autocorrelation, bias etc.); scale-dependencies/matching of tracking & environmental data; tracking approaches & location error; introduction into geometric & variance component analyses, behavioral segmentation, area-metrics such as home ranges, remote-sensing driven trajectory analysis, incl. corridor analysis, habitat analysis, resource utilization, resource selection, step selection etc.
+
 ## 2020
 
-Seminar **"Advanced Programming for Spatial Analysis"**, [EAGLE MSc.](http://eagle-science.org): Practical training to strengthen technical and methodological skills in machine learning (deep neural networks for computer vision, deep learning, discriminative modeling), machine-to-machine communication and creating efficient local and cloud-based development environments for `Python` and `R`.
+Lecture **"Applications of remote sensing"**, [EAGLE MSc.](http://eagle-science.org): Remote sensing of forests, vulnerabilities & risks, biodiversity, wildlife ecology, natural resources, fire & burnt areas, coasts, diseases & health, agriculture, soil, land cover & land use, human settlements, policy etc.
 
-Seminar **"Scientific Graphics"**, [EAGLE MSc.](http://eagle-science.org): Training to improve skills in creating scientific graphics using `R` and `LaTeX`, and communicating scientific work through web applications using shiny in `R`.
+Course **"Introduction into programming and GIS"**, [EAGLE MSc.](http://eagle-science.org): Basics of `R` & *QGIS*; version control using *git*; `R` in comparison to other languages (interpreter vs. compiler, memory management etc.); programming paradigms; procedural vs. object-oriented vs. functional programming; types/modes, structures, indexing; implicit vs. explicit type conversion; control flow constructs & vectorization; functions; package building; data visualization; statistics; spatial data analysis; image processing; classification models etc.
 
-Seminar (Block) **"Spectral Unmixing of Hyperspectral Remote Sensing Imagery"**, [EAGLE MSc.](http://eagle-science.org): Introduction to spectral unmixing theory, physical principles, established methods and practical tools using `QGIS` and `R`.
+Seminar **"Advanced Programming for Spatial Analysis"**, [EAGLE MSc.](http://eagle-science.org): introduction to machine learning, deep neural networks, computer vision, discriminative modelling; (web-)APIs, web protocols, machine-to-machine communication; development environments, code maintenance, unit testing, continuous integration, version control, *Linux* and `bash` etc.
+
+Seminar **"Hyperspectral remote sensing"**, [EAGLE MSc.](http://eagle-science.org): Spectrometric field sampling, spectral unmixing in `R` & *QGIS*
+
+Seminar **"Scientific graphics"**, [EAGLE MSc.](http://eagle-science.org): (Interactive) visualizations using `LaTeX`, `ggplot2`, `plotly`, `leaflet` & `shiny`/`bootstrap`
 
 ## 2019
 
@@ -25,7 +51,7 @@ Seminar **"Visualizing Animal Movement in Synchronicity with Environmental Data 
 
 Seminar **"Introduction to Remote Sensing"**, [AniMove Science School 2019](http://animove.org), Yale University, CT, USA.
 
-Seminar **"Advanced Programming for Spatial Analysis"**, [EAGLE MSc.](http://eagle-science.org): Practical training to strengthen technical and methodological skills in machine learning (deep neural networks for computer vision, deep learning, discriminative modeling), machine-to-machine communication and creating efficient local and cloud-based development environments for `Python` and `R`.
+Seminar **"Advanced Programming for Spatial Analysis"**, [EAGLE MSc.](http://eagle-science.org): introduction to machine learning, deep neural networks, computer vision, discriminative modelling; (web-)APIs, web protocols, machine-to-machine communication; development environments, code maintenance, unit testing, continuous integration, version control, *Linux* and `bash` etc.
 
 Guest Lecture **"Animal Movement Tracking for Remote Sensing"**, [Geography BSc.](https://www.geographie.uni-wuerzburg.de/en/studies/): Potentials of integrating animal movement tracking data with remote sensing.
 

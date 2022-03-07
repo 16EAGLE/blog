@@ -88,5 +88,12 @@ theme = "hugo-theme-codex"
   name = "blog"
   title = "Blog"
   url = "/blog"
+  weight = 5
+
+[[menu.main]]
+  identifier = "imagery"
+  name = "imagery"
+  title = "Imagery"
+  url = "/imagery"
   weight = 4
 

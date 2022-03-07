@@ -6,7 +6,8 @@ description: "Sample article showcasing basic Markdown syntax and formatting for
 keywords: ["gohugo", "hugo", "go", "blog"]
 draft: false
 tags: ["markdown", "css", "html", "themes"]
-stylesheet: "post.css"
+math: false
+toc: false
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
@@ -57,16 +58,19 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 
 #### Inline Markdown within tables
 
+<div style="overflow-x: auto">
+
 | Inline&nbsp;&nbsp;&nbsp;     | Markdown&nbsp;&nbsp;&nbsp;  | In&nbsp;&nbsp;&nbsp;                | Table      |
 | ---------- | --------- | ----------------- | ---------- |
 | *italics*  | **bold**  | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code`     |
+
+</div>
 
 ## Code Blocks
 
 #### Code block with backticks
 
-```
-html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -101,6 +105,20 @@ html
 </head>
 <body>
   <p>Test</p>
+</body>
+</html>
+```
+
+#### Wide code block
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example HTML5 Document</title>
+</head>
+<body>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 </body>
 </html>
 ```

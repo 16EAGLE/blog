@@ -1,17 +1,16 @@
-@import 'partials/normalize';
-@import 'partials/vars';
-@import 'partials/reset';
-@import 'partials/typography';
-@import 'partials/nav';
-@import 'partials/social-icons';
+@import "partials/vars";
+@import "partials/normalize";
+@import "partials/reset";
+@import "partials/typography";
+@import "partials/nav";
+@import "partials/social-icons";
 
 body.nav--active {
   overflow: hidden;
 }
 
 main {
-  padding: 3rem 1.5rem;
-
+  padding: 3rem 1.5rem 1rem;
 
   @media screen and (min-width: $medium) {
     padding-left: calc(1.5rem + #{$navWidth});

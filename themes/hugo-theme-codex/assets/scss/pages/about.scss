@@ -1,10 +1,10 @@
-@import '../main';
+@import "../main";
 
 .splash-container {
   height: 100%;
   display: flex;
   justify-content: center;
-  //align-items: center;
+  align-items: center;
   font-size: 14px;
 
   @media screen and (min-width: $medium) {
@@ -14,8 +14,6 @@
 
 .splash {
   h1 {
-    position: relative;
-    padding-top: 10px;
     font-size: 3em;
     line-height: 1;
     letter-spacing: -0.03em;
@@ -28,10 +26,6 @@
     line-height: 1.25;
     max-width: 22em;
     letter-spacing: -0.03em;
-  }
-  
-  p {
-    max-width: 34rem;
   }
 }
 
@@ -51,8 +45,6 @@
   color: $primary;
 }
 
-
-
 /* overrides */
 
 main {
@@ -63,5 +55,6 @@ main {
 
 .social-icons {
   justify-content: flex-start;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  margin-left: -0.8rem; // offset to negate icon's padding to align with text above
 }

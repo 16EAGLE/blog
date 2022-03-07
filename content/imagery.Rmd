@@ -1,0 +1,62 @@
+---
+date: "`r format(Sys.time(), '%Y-%m-%dT%H:%M:%S-00:00')`"
+description: Imagery
+draft: false
+keywords:
+- talks
+stylesheet: post.css
+title: Imagery
+---
+
+This is a loose, irregularly updated collection of images that I have taken. All images below are shared under the [*Creative Commons* license *CC-BY-SA*](https://creativecommons.org/licenses/by-sa/3.0/de/deed.en), allowing you to use, share and modify them for whatever purpose under the conditions that (a) you credit the original source and (b) if you remix, transform, or build upon the material, you distribute it under the same license as the original.
+<br>
+<br>
+
+<a href="/img/svalbard-ground-station.JPG" target="_blank">
+<img src="/img/svalbard-ground-station.JPG" title="Svalbard Ground Station" alt="The Svalbard Satellite Data Receiving Ground Station, near Longyearbyen, Spitsbergen, 2015 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA" />
+</a>
+<figcaption>*The Svalbard Satellite Data Receiving Ground Station, near Longyearbyen, Spitsbergen, 2015 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA*</figcaption>
+
+
+<br>
+
+<a href="/img/svalbard-icy-sassenfjorden.JPG" target="_blank">
+<img src="/img/svalbard-icy-sassenfjorden.JPG" title="Icy Sassenfjorden" alt="Icy Slopes of Sassenfjorden Fjord, Svalbard, 2015 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA" />
+</a>
+<figcaption>*The Icy Slopes of Sassenfjorden Fjord, Svalbard, 2015 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA*</figcaption>
+
+<br>
+
+<a href="/img/svalbard-nordenskjold-glacier.JPG" target="_blank">
+<img src="/img/svalbard-nordenskjold-glacier.JPG" title="Nordenskjold Glacier" alt="The Nordenskjold Glacier's Terminus, Svalbard, 2015 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA" />
+</a>
+<figcaption>*The Nordenskjold Glacier's Terminus, Svalbard, 2015 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA*</figcaption>
+
+<br>
+
+<a href="/img/svalbard-adventfjorden.JPG" target="_blank">
+<img src="/img/svalbard-adventfjorden.JPG" title="Adventfjorden" alt="The Adventfjorden and Isfjorden Fjords, Svalbard, 2015 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA" />
+</a>
+<figcaption>*The Adventfjorden and Isfjorden Fjords, Svalbard, 2015 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA*</figcaption>
+
+<br>
+
+<a href="/img/lizard.jpg" target="_blank">
+<img src="/img/lizard.jpg" title="A Lizard" alt="A Lizard, 2014 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA" />
+</a>
+<figcaption>*A Lizard up close, 2014 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA*</figcaption>
+
+<br>
+
+<a href="/img/birds.jpg" target="_blank">
+<img src="/img/birds.jpg" title="Birds" alt="Birds, 2014 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA" />
+</a>
+<figcaption>*Birds, 2014 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA*</figcaption>
+
+<br>
+
+<a href="/img/birds-flock.jpg" target="_blank">
+<img src="/img/birds-flock.jpg" title="A Flock" alt="A Flock, 2014 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA" />
+</a>
+<figcaption>*A Flock, 2014 – Creator: Jakob Schwalb-Willmann; some rights reserved under CC-BY-SA*</figcaption>
+

@@ -1,21 +1,11 @@
 {{ define "styles" }}
-    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/post.scss" "dest" "css/post.css") }}
+    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/404.scss" "dest" "css/404.css") }}
 {{ end }}
 
 {{ define "main" }}
-    <div class="post">
-      <header class="post__header">
-        <h1 class="post__title">Here is nothing...</h1>
-      </header>
-      <p>This is the end. The page you are looking for does not exist. You can use the menu to get back on track. In other words: 404.</p>
-      <br>
-      <img src="/img/404.jpeg">
-    </div>
-{{ end }} 
-
-{{ define "footer" }}
-  <footer>
-      {{ partial "social-icons.html" .}}
-    <p>{{ replace .Site.Copyright "{year}" now.Year }}</p>
-  </footer>
-{{ end }} 
+<article>
+  <h1>
+    This is not the page you were looking for
+  </h1>
+</article>
+{{ end }}
