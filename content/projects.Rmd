@@ -13,7 +13,7 @@ title: Projects
    <source src="/vid/projects.mp4" type="video/mp4">
    <source src="/vid/projects.mov" type="video/mov">
 </video>
-<figcaption>*Migration of White Storks, tracked between 2011 and 2017 by the Max Planck Institute of Animal Behavior, on top of a dynamic NASA Blue Marble background representing global seasonality, animated using moveVis. Video copyright: Jakob Schwalb-Willmann*</figcaption>
+<figcaption>*Migration of White Storks, tracked between 2011 and 2017 by the Max Planck Institute of Animal Behavior, on top of a dynamic NASA Blue Marble background representing global seasonality, animated using moveVis. © `r format(Sys.time(), '%Y')` Jakob Schwalb-Willmann*</figcaption>
 
 ## Scientific
 
