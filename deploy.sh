@@ -1,4 +1,7 @@
 #!/bin/sh
+# fist time after pull of full repo: 
+# git submodule update --init
+# git checkout master
 
 # If a command fails then the deploy stops
 set -e

@@ -1,7 +1,7 @@
 # build site
 cat("Build site\n")
 #options("blogdown.method" = "html")
-blogdown::build_site(run_hugo = T, build_rmd = F, local = T)
+blogdown::build_site(run_hugo = T, build_rmd = T, local = T)
 cat("Serve site\n")
 blogdown::serve_site()
 
