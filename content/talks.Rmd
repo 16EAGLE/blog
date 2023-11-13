@@ -8,10 +8,36 @@ stylesheet: post.css
 title: Talks & Teaching
 ---
 
-![Teaching at Yale](/img/teaching.jpg)
+<a href="https://animove.org/" target="_blank">![Teaching at Yale](/img/teaching.jpg)</a>
 <figcaption>*Teaching at the AniMove Science School 2019 at Yale University, USA*</figcaption>
 
+*Since 2019, I have a teaching position at the University of Würzburg. In addition, I have been teaching at the AniMove Science Schools for several years. Find out about my talks and teaching below.*
+
+## 2023
+
+Seminar **"Deep learning for Earth observation"**, [EAGLE MSc.](https://eagle-science.org): This methodological course introduces *Deep Learning* with a practical focus on how to use it for image processing in Earth observation. Students get to know the principles behind the design of Neural Networks and the training thereof using *Deep Learning*. They learn about loss, backpropagation, optimization, activation functions & vanishing gradients, over- & underfitting, regularization, augmentation, convolutions, layers of state vs. stateless layers, sequential and non-sequential network designs for image processing tasks such as classification and segmentation. The course is taught in `R` and `Pyhton`, mainly using `keras` and `tensorflow`.
+
+Seminar **"Remote sensing field methods for ecological analyses"**, [Biology MSc.](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/): This course introduces remote sensing field methods to ecologists. They are get to know field campaigning (sampling methods, routing, positioning etc.), in-situ data sampling (parameters, field devices such as spectrometers, soil moisture probes etc.) and UAS (drone) imagery acquisition (platforms, sensors, flight planning, licensing, training). This prepares them for a field day at a research site where data are collected under real-world research conditions. Afterwards, they learn to handle, process and analyse the recorded data and turn them into interpretable information.
+
+Seminar **"Animal movement tracking data analysis for Earth observation"**, [EAGLE MSc.](https://eagle-science.org): Why do animals move through the landscape in the way they do? How are they impacted by their environments? Or: Which environmental conditions are tied to what kind of of movement behavior? People interested in conservation efforts, biodiversity research or climate change impact predictions, among others, may be asking these kind of questions. Integrating animal movement tracking data with remotely-sensed environmental data may allow researchers to provide answers. This modelling course introduces concepts and methods to Earth observation students who want to learn to work with animal movement trajectories, a special type of spatio-temporal data, and integrate such with Earth observation analyses. While touching backgrounds of movement theory, the course mainly focuses on practically handling, analyzing and visualizing tracking data, leading students to eventually be able to independently spot patterns in movement data, make connections to environmental conditions and, finally, jointly model movement tracking and remote sensing/environmental data.
+
+Seminar **"Introduction into remote sensing for ecological analyses"**, [Biology MSc.](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)
+
 ## 2022
+
+Seminar **"Introduction to Programming and Geostatistics"**, [EAGLE MSc.](https://eagle-science.org)
+
+Lecture **"Applications of Earth observation"**, [EAGLE MSc.](https://eagle-science.org)
+
+Seminar **"Movement data visualization in R"**, [AniMove Science School 2022](https://animove.org/), Max Planck Institute for Animal Behavior, Radolfzell, Germany.
+
+Seminar **"Introduction into Remote sensing for animal movement analysis"**, [AniMove Science School 2022](https://animove.org/), Max Planck Institute for Animal Behavior, Radolfzell, Germany.
+
+Seminar **"Deep learning for Earth observation"**, [EAGLE MSc.](https://eagle-science.org)
+
+Seminar **"Scientific graphics"**, [EAGLE MSc.](https://eagle-science.org): (Interactive) visualizations using `LaTeX`,  `leaflet`, `plotly`, `ggplot2`, `shiny` and more.
+
+Seminar **"Remote sensing field methods for ecological analyses"**. [Biology MSc.](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)
 
 Seminar **"Introduction into animal movement data analysis"**, [EAGLE MSc.](http://eagle-science.org): Backgrounds; effects of discretely observing continuous processes (sampling rate, autocorrelation, bias etc.); scale-dependencies/matching of tracking & environmental data; tracking approaches & location error; introduction into geometric & variance component analyses, behavioral segmentation, area-metrics such as home ranges, remote-sensing driven trajectory analysis, incl. corridor analysis, habitat analysis, resource utilization, resource selection, step selection etc.
 
@@ -47,9 +73,9 @@ Seminar **"Scientific graphics"**, [EAGLE MSc.](http://eagle-science.org): (Inte
 
 ## 2019
 
-Seminar **"Visualizing Animal Movement in Synchronicity with Environmental Data using moveVis"**, [AniMove Science School 2019](http://animove.org/courses/yale-2019/), Yale University, CT, USA.
+Seminar **"Visualizing Animal Movement in Synchronicity with Environmental Data using moveVis"**, [AniMove Science School 2019](https://animove.org/), Yale University, New Haven, CT, USA.
 
-Seminar **"Introduction to Remote Sensing"**, [AniMove Science School 2019](http://animove.org), Yale University, CT, USA.
+Seminar **"Introduction to Remote Sensing"**, [AniMove Science School 2019](http://animove.org), Yale University, New Haven, CT, USA.
 
 Seminar **"Advanced Programming for Spatial Analysis"**, [EAGLE MSc.](http://eagle-science.org): introduction to machine learning, deep neural networks, computer vision, discriminative modelling; (web-)APIs, web protocols, machine-to-machine communication; development environments, code maintenance, unit testing, continuous integration, version control, *Linux* and `bash` etc.
 

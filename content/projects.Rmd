@@ -35,7 +35,7 @@ title: Projects
 
 [`odcbox`](https://github.com/eo2cube/odcbox), a repository hosting everything needed to install an [*Open Data Cube*](https://www.opendatacube.org/) instance as a docker container that serves a `Jupyter` notebook environment running both a `Python` kernel and an `R` kernel.
 
-[`basemaps`](http://jxsw.de/basemaps), an `R` package to download and cache spatial basemaps from open sources such as *OpenStreetMap*, *Carto* and *Mapbox*.
+[`basemaps`](http://jakob.schwalb-willmann.de/basemaps), an `R` package to download and cache spatial basemaps from open sources such as *OpenStreetMap*, *Carto* and *Mapbox*.
 
 [`RStoolbox`](https://bleutner.github.io/RStoolbox/), an `R` package providing a wide range of tools for every-day remote sensing processing needs (*co-author*).
 
