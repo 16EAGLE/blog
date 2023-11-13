@@ -1,0 +1,89 @@
+---
+title: "How to mount a VirtualBox volume on a Linux host using the command line"
+description: "Sometimes it may be necessary to access a VirtualBox hard drive from the host command line. This article describes, how this can be done using vboximg-mount."
+date: "2023-11-10T08:00:00-00:00"
+draft: false
+keywords: ["how-to", "VirtualBox", "virtualization", "vboximg-mount", "linux", "sysadmin"]
+tags: ["how-to", "VirtualBox", "virtualization", "vboximg-mount", "linux", "sysadmin"]
+slug: "how-to-mount-a-virtualbox-volume-on-a-linux-host-using-the-command-line"
+stylesheet: post.css
+---
+
+
+## Introduction
+
+*VirtualBox* is a widely used virtualization software that allows you to install and run entire operating systems as virtual machines (VMs) on a host system. For this, one can create virtual hard disks that are physically stored on the host, e.g. as dynamically expanding `.vdi` or `.vmdk` image files. *VirtualBox* attaches these disks to the respective VM so that the VM can mount them as if they were physical devices and use them to store volumes on it, e.g. the system partition or other partitions relevant to the VM.
+
+Sometimes it may be necessary to access these virtual volumes from the host, for example, if a VM fails to boot (data recovery) or one wants to quickly extract directories and files from a (stopped) VM without booting it. On a linux host, this can be simply done using the command line tools that come with *VirtualBox*.
+
+## Step 1: Mount a VirtualBox hard disk image
+
+First, we need to discover the *UUID* of the virtual hard disk that you want to mount. 
+
+Open a terminal on the host and use `vboxmanage` as follows to list all *VirtualBox* hard disks:
+
+```
+vboxmanage list hdds
+```
+
+This will print the UUIDs of each virtual hard disk registered in *VirtualBox* on the host, e.g.:
+
+```
+UUID:           968d86b7-eb9f-416a-bf14-e3217fe045a3
+Parent UUID:    base
+State:          locked read
+Type:           normal (base)
+Location:       /Virtualbox/VMs/vm1/sysvol_vm1.vmdk
+Storage format: VMDK
+Capacity:       90000 MBytes
+Encryption:     disabled
+```
+
+If you are not sure which virtual hard disk is the one you are looking for, you can use `vboxmanage list vms -l` to list details of all VMs on your host, including the attached hard disks and their UUID per VM.
+
+Once you know the UUID of the virtual hard disk you want to mount, make sure to power off the VM the disk is attached to. Otherwise, you will see an error that the disk is locked since it is still in use (and thus cannot be mounted).
+
+Create a directpry to which you want to mount the disk image, e.g. using:
+
+```
+sudo mkdir /mnt/sysvol_vm1
+```
+
+Then, use `vboximg-mount` with the UUID you extraced to mount the disk on the host as a FUSE-based file system:
+
+```
+vboximg-mount --image 968d86b7-eb9f-416a-bf14-e3217fe045a3 -o allow_root /mnt/sysvol_vm1
+```
+
+The option `-o allow_root` overrides the system owner privileges for read and write access by granting file access to the root user.
+
+If you get an error such as `Option allow_root only allowed if 'user_allow_other' is set in /etc/fuse.conf` or similar, edit `/etc/fuse.conf` using `nano /etc/fuse.conf`, find the line `# user_allow_other` and uncomment it so that it reads `user_allow_other`. Doing this, you allow non-root users on the host to specify the `allow_other` or `allow_root` mount options. Afterwards, retry mounting using `vboximg-mount`.
+
+## Step 2: Mount a volume stored on the mounted VirtualBox hard disk image
+
+To see what the mounted disk image contains, use `ls`:
+
+```
+ls /mnt/sysvol_vm1
+```
+
+This will print something like this:
+
+```
+sysvol_vm1.vmdk  vhdd  vol0  vol1
+```
+
+* `sysvol_vm1.vmdk` is a symlink that links to the original hard disk image.
+* `vhdd` gives you access to the raw disk image as a flat image.
+* `vol*` gives you access to the volumes stored on the disk image.
+
+Since we want to get access to file file system(s) of the volume(s) on this hard disk, we just need to mount `vol*`, using `mount`:
+
+```
+mkdir /mnt/sysvol_vm1_vol0
+sudo mount /mnt/sysvol_vm1/vol0 /mnt/sysvol_vm1_vol0
+```
+
+That's it! Now you have access to the file system of the first volume on the VirtualBox hard disk image that we mounted!
+
+

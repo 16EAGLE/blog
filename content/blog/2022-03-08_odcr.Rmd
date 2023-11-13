@@ -4,8 +4,8 @@ description: "odcr is an R package that serves as an interface to the Open Data 
 date: "2022-03-08T19:29:00-00:00"
 draft: false
 author: "Jakob Schwalb-Willmann"
-keywords: ["R", "odcr", "odcbox", "remote-sensing", "Open-Data-Cube"]
-tags: ["R", "odcr", "odcbox", "remote-sensing", "Open-Data-Cube"]
+keywords: ["how-to", "R", "odcr", "odcbox", "remote-sensing", "Open-Data-Cube"]
+tags: ["how-to", "R", "odcr", "odcbox", "remote-sensing", "Open-Data-Cube"]
 slug: "working-with-odcr"
 stylesheet: post.css
 ---

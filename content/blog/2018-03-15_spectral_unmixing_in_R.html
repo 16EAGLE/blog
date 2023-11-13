@@ -9,11 +9,13 @@ slug: "spectral-unmixing-using-RStoolbox"
 stylesheet: post.css
 ---
 
-<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
 <p>Recently, I finished the development of the first version of a spectral unmixing function being part of <a href="http://bleutner.github.io" target="_blank">RStoolbox</a>, an R package offering numerous tools for remote sensing analysis written by <em>Benjamin Leutner</em>. The multiple endmember spectral mixture analysis (mesma) function makes it possible to unmix multi- and hyper-spectral imagery by sets of spectral endmember profiles.</p>
-<img src="/img/spectral-unmixing-in-R_fig1.png" title="fig:" alt="mesma framework" />
+<div class="figure">
+<img src="/img/spectral-unmixing-in-R_fig1.png" alt="" />
+<p class="caption">mesma framework</p>
+</div>
 <figcaption>
 <em>Figure 1: The RStoolbox::mesma() workflow.</em>
 </figcaption>
@@ -49,7 +51,10 @@ Here are the classified probabilities for water…
 <em>Figure 2: Classified probabilities showing water and non-water pixels.</em>
 </figcaption>
 <p>and here they are for land:</p>
-<img src="/img/spectral-unmixing-in-R_fig3.png" title="fig:" alt="histogram of water values" />
+<div class="figure">
+<img src="/img/spectral-unmixing-in-R_fig3.png" alt="" />
+<p class="caption">histogram of water values</p>
+</div>
 <figcaption>
 <em>Figure 3: Classified probabilities showing land and non-land pixels.</em>
 </figcaption>
