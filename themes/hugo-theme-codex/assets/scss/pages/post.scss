@@ -1,13 +1,12 @@
-@import '../main';
-@import '../partials/github-syntax-highlighting';
-@import '../partials/colors';
+@import "../main";
+@import "../partials/github-syntax-highlighting";
+@import "../partials/colors";
 
 .post {
   width: 100%;
   max-width: 34rem;
   margin: 0 auto;
-  
-  
+
   h1 {
     position: relative;
     padding-top: 10px;
@@ -17,7 +16,8 @@
     margin: 0;
   }
 
-  h2, h3 {
+  h2,
+  h3 {
     position: relative;
     padding-top: 10px;
 
@@ -45,7 +45,7 @@
       text-decoration: underline;
     }
   }
-  
+
   video {
     width: 100%;
     //max-width: 500px;
@@ -53,27 +53,26 @@
     display: block;
     //padding-bottom: 0.5rem;
   }
-  
+
   img {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
     display: block;
   }
-  
+
   img + em {
     color: $grey;
-	  font-size: 0.8rem;
-  }
-  
-  figcaption {
-    color: $grey;
-	  font-size: 0.8rem;
-	  padding-top: 0.5rem;
+    font-size: 0.8rem;
   }
 
-  
-  .profile{
+  figcaption {
+    color: $grey;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+  }
+
+  .profile {
     //display: block;
     //float: left;
     margin-left: 0;
@@ -83,10 +82,8 @@
     position: relative;
     width: 100%;
     max-width: 350px;
-    
+
     @media screen and (max-width: $medium) {
-      
-      
       max-width: 100%;
       //margin-left: -26%;
     }
@@ -96,14 +93,12 @@
       max-width: 51%;
       margin-left: -57%;
     }*/
-  } 
-  
-
+  }
 }
 
 .post__content a {
   font-weight: 400;
-  color: $darkGrey;//#0366d6;
+  color: $darkGrey; //#0366d6;
   text-decoration: none;
 
   &:hover {
@@ -117,7 +112,7 @@
   text-decoration: none;
 
   &:hover {
-    color: #3C566D;
+    color: #3c566d;
     text-decoration: underline;
   }
 }
@@ -161,7 +156,7 @@
 
     &:before,
     &:after {
-      content: '`';
+      content: "`";
     }
   }
 
@@ -211,7 +206,7 @@
 }
 
 p.warning {
-  background: #FFF9DF;
+  background: #fff9df;
   padding: 1rem;
   font-size: 0.8rem;
   line-height: 1.5;
@@ -282,7 +277,6 @@ footer {
   }
 }
 
-
 /* overrides */
 .post__content {
   ul {
@@ -292,7 +286,7 @@ footer {
       margin-bottom: 0.5rem;
 
       &::before {
-        content: '-';
+        content: "-";
         color: $darkGrey;
         position: absolute;
         margin-left: -15px;
@@ -319,4 +313,18 @@ table {
     padding: 0.5em 1em;
     border: 1px double $greyTableBorder;
   }
+}
+
+details summary {
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
+}
+details p {
+  margin-top: 0.5rem;
+  margin-left: 1.1rem;
+  padding: 0;
 }

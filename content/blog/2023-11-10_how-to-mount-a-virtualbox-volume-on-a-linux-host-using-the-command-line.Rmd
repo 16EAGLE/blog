@@ -87,3 +87,4 @@ sudo mount /mnt/sys_vm1/vol0 /mnt/sys_vm1_vol0
 That's it! Now you have access to the file system of the first volume on the VirtualBox hard disk image. In this example, we mounted the volume to the directory `/mnt/sys_vm1_vol0`. You can browse its contents using `ls /mnt/sys_vm1_vol0`. 
 
 
+
