@@ -9,7 +9,7 @@ slug: "phd-colloquium-2018"
 stylesheet: post.css
 ---
 
-![phd-colloquium-2019](/img/phd-colloquium-2018.jpg)
+![](/img/phd-colloquium-2018.jpg)
 <figcaption>*Figure 1: This year's attendees of our annual PhD colloquium at EOC in Oberpfaffenhofen.*</figcaption>
 
 Yesterday, on November 14th, 2018, the annual PhD colloquium of PhD candiates supervised by Prof. Dr. Stefan Dech met at the Earth Observation Center (EOC) at DLR in Oberpfaffenhofen to talk about their PhD topics and statuses. Each PhD candidate presented her or his PhD concept and status and addressed challenges and successes of the past year, followed by a discussion with the present candidates and supervisors. The meeting not only enabled exchanges between the candidates and supervisors about the research topics but also served as a stage to train presenting scientific research in concise and exiting ways. The following candidates spoke about these topics:

@@ -11,7 +11,7 @@ stylesheet: post.css
 
 Recently, I finished the development of the first version of a spectral unmixing function being part of <a href="http://bleutner.github.io" target="_blank">RStoolbox</a>, an R package offering numerous tools for remote sensing analysis written by *Benjamin Leutner*. The multiple endmember spectral mixture analysis (mesma) function makes it possible to unmix multi- and hyper-spectral imagery by sets of spectral endmember profiles.
 
-![mesma framework](/img/spectral-unmixing-in-R_fig1.png)
+![](/img/spectral-unmixing-in-R_fig1.png)
 <figcaption>*Figure 1: The RStoolbox::mesma() workflow.*</figcaption>
 
 For this, a non-negative least squares (NNLS) solver was implemented. NNLS is a statistical approach to fit model parameters to data, assuming that the model parameters are always expressed linearly to those not expressed by the model (unknown parameters) and that the model parameters can never be negative. There are different approaches to solve the NNLS problem. A popular one had been introduced by Lawson & Hanson (1974), which can be considered as fundamental work on practical Least Square Problems solving. It was originally published as FORTRAN code, which is still widely used, e.g. by the R NNLS package or by the Python scipy library. However, compared to newer developing frameworks and languages emerged, the FORTRAN implementation is relatively slow. Thus and to be independent from existing solutions, I wrote a C++ NNLS solver for mesma(), based on a sequential coordinate-wise algorithm (SCA) introduced by Franc et al. (2005). The latter method inherits strong control about the solver’s iteration stopping conditions.

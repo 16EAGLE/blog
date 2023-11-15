@@ -9,7 +9,7 @@ slug: "procellariiformes-animation-using-moveVis"
 stylesheet: post.css
 ---
 
-![albatross](/img/albatross.jpg)
+![](/img/albatross.jpg)
 <figcaption>*Figure 1: An Albatross in the air. Source: pexels.com*</figcaption>
 
 In the framework of the AniMove summer school 2017, the <a href="http://www.movevis.org" target="_blank">moveVis R package</a> was introduced to the participants, resulting in several likewise interesting and beautiful animal movement animations. The shown animation displays the movement of Procellariiformes near Marion Island, South Africa, against the multi-temporal, daily NOAA sea surface temperature product G1SST. It was created by Tegan Carpenter-Kling, who is a PhD candidate within the <a href="http://mapru.mandela.ac.za/People" target="_blank">Marine Apex Predator Research Unit (MAPRU)</a> based at Nelson Mandela University in Port Elizabeth, South Africa. A large section of her research will focus on quantifying how land based marine predators, such as seabirds and seals, utilize the ocean environment and its resources, with special attention to mechanisms of foraging segregation during the breeding season.

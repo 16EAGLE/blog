@@ -9,7 +9,7 @@ slug: "turkey-vulture-animation-using-moveVis"
 stylesheet: post.css
 ---
 
-![turkeyvulture](/img/turkeyvulture.jpg)
+![](/img/turkeyvulture.jpg)
 <figcaption>*Figure 1: An Eastern Turkey Vulture (C. a. septentrionalis) in flight (Canada). Source: Peter K Burian/[CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0)*</figcaption>
 
 The Turkey Vulture (Cathartes aura) is the most widespread scavenging bird on the american continents, ranging from southern Canada to the tip of South America. Since 2003, the <a href="http://www.hawkmountain.org/" target="_blank">Hawk Mountain Sanctuary</a> is collecting movement data of Turkey Vultures to investigate their migration behaviours, using radio tags monitored by satellite. 21 Turkey Vultures have been tracked during that period of time. The dataset is available on <a href="http://www.movebank.org/" target="_blank">Movebank</a> (Movebank ID: 481458). To learn more about the Turkey Vulture in general, read a detailed <a href="http://www.hawkmountain.org/raptorpedia/hawks-at-hawk-mountain/hawk-species-at-hawk-mountain/turkey-vulture/page.aspx?id=644" target="_blank">overview of the species here</a> at the Hawk Mountain Sanctuary website.

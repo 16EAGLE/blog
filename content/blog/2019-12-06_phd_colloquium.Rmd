@@ -9,7 +9,7 @@ slug: "phd-colloquium-2019"
 stylesheet: post.css
 ---
 
-![phd-colloquium-2019](/img/phd-colloquium-2019.jpg)
+![](/img/phd-colloquium-2019.jpg)
 <figcaption>*Figure 1: This year's attendees of our annual PhD colloquium at EOC in Oberpfaffenhofen.*</figcaption>
 
 Last Thursday, on November 28th, 2019, our annual PhD colloquium took place at the Earth Observation Center (EOC) at DLR in Oberpfaffenhofen. As every year, the current PhD students of Prof. Dr. Stefan Dech met to present the concepts and statuses of their PhDs and to discuss their approaches and ideas within a larger group. As last year, the presentations provided interesting insights into the accomplishments and challenges of the PhD projects and showed the scientific progress that has been made during this last year. The presentations were followed by vivid discussions, out of which valuable thoughts evolved, allowing the PhD students to get inputs from different perspectives.
