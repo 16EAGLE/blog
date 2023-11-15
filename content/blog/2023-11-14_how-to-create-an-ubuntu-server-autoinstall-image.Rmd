@@ -1,0 +1,83 @@
+---
+title: "How to create an Ubuntu Server autoinstall image for a headless system"
+description: ""
+date: "2023-11-15T08:00:00-00:00"
+draft: true
+keywords: ["how-to", "autoinstall", "ubuntu", "linux", "server", "headless", "sysadmin"]
+tags: ["how-to", "autoinstall", "ubuntu", "linux", "server", "headless", "sysadmin"]
+slug: "how-to-create-an-ubuntu-server-autoinstall-image-for-a-headless-system"
+stylesheet: post.css
+---
+
+
+## Introduction
+
+## Step 1: Extract Ubuntu Server .iso image
+
+extract ubuntu server iso image source files
+
+```
+7z -y x ubuntu-22.04.3-live-server-amd64.iso -osource-files
+```
+
+## Step 2: Re-configure GRUB
+
+edit
+
+```
+nano source-files/boot/grub/grub.cfg
+```
+
+add
+
+```
+menuentry "Autoinstall Ubuntu Server" {
+    set gfxpayload=keep
+    linux   /casper/vmlinuz quiet autoinstall ds=nocloud\;s=/cdrom/server/  ---
+    initrd  /casper/initrd
+}
+```
+
+rename and move boot
+
+```
+mv '[BOOT]' ../BOOT
+cd .. 
+```
+
+## Step 3: Create cloud-config
+
+```
+mkdir source-files/server 
+touch source-files/server/meta-data
+nano source-files/server/user-data
+```
+
+minimal example
+
+```
+#cloud-config
+autoinstall:
+  version: 1
+  identity:
+    hostname: ubuntu-server
+    password: 
+    username: administrator
+```
+
+create new image including changes
+
+```
+xorriso -as mkisofs -r -V 'Ubuntu 22.04 LTS autoinstall' -o ../ubuntu-22.04-autoinstall.iso --grub2-mbr ../BOOT/1-Boot-NoEmul.img -partition_offset 16 --mbr-force-bootable -append_partition 2 28732ac11ff8d211ba4b00a0c93ec93b ../BOOT/2-Boot-NoEmul.img -appended_part_as_gpt -iso_mbr_part_type a2a0d0ebe5b9334487c068b6b72699c7 -c '/boot.catalog' -b '/boot/grub/i386-pc/eltorito.img' -no-emul-boot -boot-load-size 4 -boot-info-table --grub2-boot-info -eltorito-alt-boot -e '--interval:appended_partition_2:::' -no-emul-boot .
+
+```
+
+autoinstall image done
+
+## Step 4 (optional): Customize image using cubic
+
+link to another article for cubic
+
+
+
+
