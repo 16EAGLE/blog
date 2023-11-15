@@ -32,5 +32,9 @@
   ],
   "lint-staged": {
     "*.{js,css,scss}": "prettier --write"
+  },
+  "dependencies": {
+    "ansi-regex": "5.0.1",
+    "debug": "4.3.4"
   }
 }
