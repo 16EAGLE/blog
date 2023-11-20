@@ -1,11 +1,11 @@
 ---
-title: "How to create an ssh-ready Ubuntu Server auto-install image for a headless system"
+title: "How to create an Ubuntu Server auto-install image for a headless system"
 description: ""
 date: "2023-11-20T08:00:00-00:00"
 draft: true
 keywords: ["how-to", "autoinstall", "ubuntu", "linux", "server", "headless", "sysadmin"]
 tags: ["how-to", "autoinstall", "ubuntu", "linux", "server", "headless", "sysadmin"]
-slug: "how-to-create-an-ssh-ready-ubuntu-server-auto-install-image-for-a-headless-system"
+slug: "how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-system"
 stylesheet: post.css
 ---
 
@@ -37,13 +37,13 @@ sudo apt install --no-install-recommends cubic</code></pre>
 <h2>Step 3: Define a project directory and extract the Ubuntu image using Cubic</h2>
 <p>Open <em>Cubic</em> and choose a project directory (<em>Fig. 1</em>).</p>
 <br>
-<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-ssh-ready-system/fig1.png" />
+<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-system/fig1.png" />
 <figcaption>
 <em>Figure 1: Select a project directory to which all files should be saved</em>
 </figcaption>
 <p>On the next screen, select the downloaded Ubuntu <code>.iso</code> file. If needed, make adjustments to the meta data of your custom image (<em>Fig. 2</em>).</p>
 <br>
-<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-ssh-ready-system/fig2.png" />
+<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-system/fig2.png" />
 <figcaption>
 <em>Figure 2: Image selection and custom disk settings</em>
 </figcaption>
@@ -53,7 +53,7 @@ sudo apt install --no-install-recommends cubic</code></pre>
 <p>On the next screen, <em>Cubic</em> displays a <em>virtual terminal</em> (<em>Fig. 3</em>). You can use it to pre-install software packages, e.g. using <code>apt</code>, create directories and files and pre-configure applications that shall be delivered with your custom image. In this how-to, as an example, I am pre-installing the programming language <code>julia</code> using <code>apt</code>.</p>
 <p>If you do not want to add anything specific, you can skip this step.</p>
 <br>
-<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-ssh-ready-system/fig3.png" />
+<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-system/fig3.png" />
 <figcaption>
 <em>Figure 3: Cubic’s virtual terminal for making changes to the image’s file system or pre-installing software</em>
 </figcaption>
@@ -72,7 +72,7 @@ autoinstall:
 <p>In this minimal <code>cloud-init</code> configuration, we set <code>ubuntu-server</code> as the name of our new machine and define a user named <code>administrator</code> (<em>Fig. 4</em>). As password, I used <code>ubuntutest</code> which one would use to log in to a machine created using this image. The password must be stored as a hash. To generate one of your own custom password, use <code>openssl passwd -6</code>.</p>
 <p>You may extend this configuration to better suit your needs. More extensive <code>user-data</code> config examples can be found <a href="https://cloudinit.readthedocs.io/en/latest/reference/examples.html">in the cloudinit docs</a>.</p>
 <br>
-<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-ssh-ready-system/fig4.png" />
+<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-system/fig4.png" />
 <figcaption>
 <em>Figure 4: The Preseed tab in Cubic to add a cloud-init configuration.</em>
 </figcaption>
@@ -97,7 +97,7 @@ autoinstall:
 <p>Optionally, you may adjust the timer controlling how long <code>GRUB</code> should wait for user input until proceeding with the default (first) menu entry. Here, I set the timer to 5 seconds by editing the first line of <code>/boot/grub/grub.cfg</code> as follows:</p>
 <pre><code>set timeout=5</code></pre>
 <br>
-<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-ssh-ready-system/fig5.png" />
+<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-system/fig5.png" />
 <figcaption>
 <em>Figure 5: Editing the GRUB configuration in grub.cfg using the Boot tab in Cubic.</em>
 </figcaption>
@@ -106,7 +106,7 @@ autoinstall:
 <h2>Step 8: Generate customized autoinstall Ubuntu live image</h2>
 <p>After selecting a compression algorithm, <em>Cubic</em> exports the customized image to the project directory as an <code>.iso</code> file (<em>Fig. 6</em>).</p>
 <br>
-<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-ssh-ready-system/fig6.png" />
+<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-system/fig6.png" />
 <figcaption>
 <em>Figure 6: Final screen of the Cubic wizard with a summary on the newly created image.</em>
 </figcaption>
@@ -117,25 +117,25 @@ autoinstall:
 <h2>What it looks like to boot the image</h2>
 <p>After booting the image, the <em>GRUB</em> boot screen shows the <em>autoinstall</em> entry that we added above as the default option (<em>Fig. 7</em>). As soon as the set timer is up, the kernel is booted with auto-install.</p>
 <br>
-<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-ssh-ready-system/fig7.png" />
+<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-system/fig7.png" />
 <figcaption>
 <em>Figure 7: The GRUB boot screen, showing the menuentry we have added in grub.cfg</em>
 </figcaption>
 <p>You may follow the progress of the installation in case a screen is attached to your system (<em>Fig. 8</em>).</p>
 <br>
-<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-ssh-ready-system/fig8.png" />
+<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-system/fig8.png" />
 <figcaption>
 <em>Figure 8: Ubuntu installing itself without user interaction using cloud-init autoinstall</em>
 </figcaption>
 <p>When the file system has been created and Ubuntu has been installed to it, the system reboots, now booting from its internal drive (<em>Fig. 9</em>)</p>
 <br>
-<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-ssh-ready-system/fig9.png" />
+<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-system/fig9.png" />
 <figcaption>
 <em>Figure 9: Ubuntu rebooting from the internal drive after the autoinstall finished</em>
 </figcaption>
 <p>After the first boot is completed, the login prompt indicates that the system is ready (<em>Fig 10</em>).</p>
 <br>
-<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-ssh-ready-system/fig10.png" />
+<img src="/img/how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-system/fig10.png" />
 <figcaption>
 <em>Figure 10: Ubuntu login screen after a successfull autoinstall</em>
 </figcaption>
