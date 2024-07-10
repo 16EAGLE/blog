@@ -17,6 +17,10 @@ title: Projects
 
 ## Scientific
 
+**Terrestrial Plastic Detection** (ongoing) – Research project on the potentials of detecting, differentiating and mapping terrestrial plastics from various Unoccupied Aerial Systems (UAS) using multi-spectral, thermal, LiDAR and hyper-spectral sensors.
+
+**Forest Monitoring** (ongoing) – Research project on the potentials of monitoring forests across Germany using Remote Sensing from Unoccupied Aerial Systems (UAS) and Earth Observation satellites
+
 **PhD** (ongoing) – Research project on the *"Potentials of animal-environment interactions for remote sensing research"*, supervised by Prof. Dr. Stefan Dech (Earth Observation Center at the German Aerospace Center, DLR) and Prof. Dr. Martin Wikelski (Max Planck Institute for Animal Behavior)
 
 **MSc** – Thesis: Schwalb-Willmann, J. (2018). [A deep learning movement prediction framework for identifying anomalies in animal-environment interactions](https://elib.dlr.de/123853/). Master's, Julius Maximilians University Würzburg/German Aerospace Center (DLR).
@@ -29,15 +33,17 @@ title: Projects
 
 ## Open Source Software
 
-[`moveVis`](http://movevis.org), an `R` package providing tools to visualize movement data (e.g. from GPS tracking) and temporal changes of environmental data (e.g. from remote sensing) by creating video animations. A [peer-reviewed open-access](https://doi.org/10.1111/2041-210X.13374) paper accompanying `moveVis` has been published in *Methods in Ecology and Evolution*.
+[`moveVis`](https://github.com/16EAGLE/moveVis), an `R` package providing tools to visualize movement data (e.g. from GPS tracking) and temporal changes of environmental data (e.g. from remote sensing) by creating video animations. A [peer-reviewed open-access](https://doi.org/10.1111/2041-210X.13374) paper accompanying `moveVis` has been published in *Methods in Ecology and Evolution*.
+
+[`basemaps`](https://github.com/16EAGLE/basemaps), an `R` package to download and cache spatial basemaps from open sources such as *OpenStreetMap*, *Carto* and *Mapbox*.
+
+[`RStoolbox`](https://github.com/bleutner/RStoolbox), an `R` package providing a wide range of tools for every-day remote sensing processing needs (*co-author*).
 
 [`odcr`](https://github.com/eo2cube/odcr), an `R` package that serves as an interface to the [*Open Data Cube*](https://www.opendatacube.org/). 
 
 [`odcbox`](https://github.com/eo2cube/odcbox), a repository hosting everything needed to install an [*Open Data Cube*](https://www.opendatacube.org/) instance as a docker container that serves a `Jupyter` notebook environment running both a `Python` kernel and an `R` kernel.
 
-[`basemaps`](http://jakob.schwalb-willmann.de/basemaps), an `R` package to download and cache spatial basemaps from open sources such as *OpenStreetMap*, *Carto* and *Mapbox*.
-
-[`RStoolbox`](https://bleutner.github.io/RStoolbox/), an `R` package providing a wide range of tools for every-day remote sensing processing needs (*co-author*).
+[`getSpatialData`](https://github.com/16EAGLE/getSpatialData), an `R` packaga making it easy to query, preview, download and preprocess multiple kinds of spatial data via R.
 
 *Visit my GitHub profile for more details on my open source contributions: https://github.com/16EAGLE*
 
