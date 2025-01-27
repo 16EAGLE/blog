@@ -6,7 +6,7 @@ title: About
 ---
 <img class="profile" src="/img/avatar.jpg"> 
 
-Welcome on this page about who I am, what I work on and what I am interested in! I am a spatial data scientist, specialized in Earth observation and geo-spatial data analysis. Professionally, I am passionate about tapping into new data sources that are currently underutilized in Earth observation research, integrating them with existing data and, in joint analysis, finding patterns previously undetected. For this, I am developing and applying machine and deep learning techniques.
+Welcome at [jakob.schwalb-willmann.de](https://jakob.schwalb-willmann.de), a page about what I do and what I am interested in! I am a spatial data scientist, specialized in Earth observation and geo-spatial data analysis. Professionally, I am passionate about tapping into new data sources that are currently underutilized in Earth observation research, integrating them with existing data and, in joint analysis, finding patterns previously undetected. For this, I am developing and applying machine and deep learning techniques.
 
 For example, for the past years, I have been working on jointly analyzing global animal movement tracking data and temporally synchronous environmental data, acquired by satellites in space. I am fascinated by the idea of employing animals as environmental informants by tracking them on large global scales and letting a computer learn patterns in their interactions with the environment.
 
