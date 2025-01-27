@@ -19,9 +19,9 @@ title: Projects
 
 **Terrestrial Plastic Detection** (ongoing) – Research project on the potentials of detecting, differentiating and mapping terrestrial plastics from various Unoccupied Aerial Systems (UAS) using multi-spectral, thermal, LiDAR and hyper-spectral sensors.
 
-**Forest Monitoring** (ongoing) – Research project on the potentials of monitoring forests across Germany using Remote Sensing from Unoccupied Aerial Systems (UAS) and Earth Observation satellites
+**Forest Monitoring** (ongoing) – Research project on the potentials of monitoring forests across Germany using Remote Sensing from Unoccupied Aerial Systems (UAS) and Earth Observation satellites.
 
-**PhD** (ongoing) – Research project on the *"Potentials of animal-environment interactions for remote sensing research"*, supervised by Prof. Dr. Stefan Dech (Earth Observation Center at the German Aerospace Center, DLR) and Prof. Dr. Martin Wikelski (Max Planck Institute for Animal Behavior)
+**PhD** (ongoing) on the *"Potentials of animal-environment interactions for remote sensing research"*. Supervision: Prof. Dr. Stefan Dech (German Aerospace Center, DLR/University of Würzburg), Prof. Dr. Martin Wikelski (Max Planck Institute for Animal Behavior/University of Konstanz) and Prof. Dr. Tobias Ullmann (University of WÜrzburg).
 
 **MSc** – Thesis: Schwalb-Willmann, J. (2018). [A deep learning movement prediction framework for identifying anomalies in animal-environment interactions](https://elib.dlr.de/123853/). Master's, Julius Maximilians University Würzburg/German Aerospace Center (DLR).
 
