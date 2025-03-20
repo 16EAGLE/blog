@@ -11,7 +11,7 @@ title: Publications
 <a href="https://pelagicpublishing.com/products/an-introduction-to-spatial-data-analysis?variant=31129275498601" target="_blank">![An Introduction to Spatial Data Analysis](/img/publications.jpg)</a>
 <figcaption>*"An Introduction to Spatial Data Analysis" helps beginners getting started working with spatial data in QGIS and R.*</figcaption>
 
-Müller, K.; **Schwalb-Willmann, J.**; Wegmann, M.; & Leutner, B. (2025). [RStoolbox: An R package for remote sensing data analysis](https://doi.org/10.1111/2041-210X.14451). *Methods Ecol Evol. 2025.* https://doi.org/10.1111/2041-210X.14451
+Müller, K.; **Schwalb-Willmann, J.**; Wegmann, M.; & Leutner, B. (2025). [RStoolbox: An R package for remote sensing data analysis](https://doi.org/10.1111/2041-210X.14451). *Methods Ecol Evol. 2025; 16: 486-495.* https://doi.org/10.1111/2041-210X.14451
 
 Friedrich, C.; Löw, J.; Otte, I.; Hill, S.; Förtsch, S.; **Schwalb-Willmann, J.**; Gessner, U.; Schierghofer, C.; Truckenbrodt, S.; Schonert, E.; Piernicke, T.; Assmann, D.; Conrad, C.; Thiel, M. (2024). [A multi-talented datacube: integrating, processing and presenting big geodata for the agricultural end user](https://www.researchgate.net/publication/378635392_A_multi-talented_datacube_integrating_processing_and_presenting_big_geodata_for_the_agricultural_end_user). *Conference Paper*.
 

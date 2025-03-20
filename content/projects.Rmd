@@ -15,17 +15,15 @@ title: Projects
 </video>
 <figcaption>*Migration of White Storks, tracked between 2011 and 2017 by the Max Planck Institute of Animal Behavior, on top of a dynamic NASA Blue Marble background representing global seasonality, animated using moveVis. © `r format(Sys.time(), '%Y')` Jakob Schwalb-Willmann*</figcaption>
 
-## Scientific
+## Research
 
-**Terrestrial Plastic Detection** (ongoing) – Research project on the potentials of detecting, differentiating and mapping terrestrial plastics from various Unoccupied Aerial Systems (UAS) using multi-spectral, thermal, LiDAR and hyper-spectral sensors.
+**Project work** (ongoing) – *Satellite/UAV remote sensing for ecological research applications*, e.g. investigating the potentials of *monitoring forests*, detecting, differentiating and mapping *terrestrial plastics*, and mapping *animal paths*, applying both satellite and UAV (drone) remote sensing using multi-spectral, thermal, LiDAR and hyper-spectral sensors. Earth Observation Research Cluster, University of Würzburg.
 
-**Forest Monitoring** (ongoing) – Research project on the potentials of monitoring forests across Germany using Remote Sensing from Unoccupied Aerial Systems (UAS) and Earth Observation satellites.
+**PhD** (ongoing) – *"Potentials of animal-environment interactions for remote sensing research"*, supervised by Prof. Dr. Stefan Dech (German Aerospace Center, DLR/University of Würzburg), Prof. Dr. Martin Wikelski (Max Planck Institute for Animal Behavior/University of Konstanz) and Prof. Dr. Tobias Ullmann (University of Würzburg).
 
-**PhD** (ongoing) on the *"Potentials of animal-environment interactions for remote sensing research"*. Supervision: Prof. Dr. Stefan Dech (German Aerospace Center, DLR/University of Würzburg), Prof. Dr. Martin Wikelski (Max Planck Institute for Animal Behavior/University of Konstanz) and Prof. Dr. Tobias Ullmann (University of WÜrzburg).
+**MSc** (2018) – *[A deep learning movement prediction framework for identifying anomalies in animal-environment interactions](https://elib.dlr.de/123853/)*. Julius Maximilians University Würzburg/German Aerospace Center (DLR).
 
-**MSc** – Thesis: Schwalb-Willmann, J. (2018). [A deep learning movement prediction framework for identifying anomalies in animal-environment interactions](https://elib.dlr.de/123853/). Master's, Julius Maximilians University Würzburg/German Aerospace Center (DLR).
-
-**BSc** – Thesis: Schwalb-Willmann, J. (2016). [Comparison of different algorithms for calculating broadband albedo from AVHRR data](https://elib.dlr.de/107761/). Bachelor's, Ludwig Maximilians University Munich/German Aerospace Center (DLR).
+**BSc** (2016) – *[Comparison of different algorithms for calculating broadband albedo from AVHRR data](https://elib.dlr.de/107761/)*. Ludwig Maximilians University Munich/German Aerospace Center (DLR).
 
 ## Writing
 
