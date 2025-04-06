@@ -1,0 +1,42 @@
+---
+title: "Teaching Remote Sensing for Arctic Ecology Research at UNIS, Svalbard"
+description: ""
+date: "2025-02-27T08:00:00-00:00"
+draft: false
+keywords: ["teaching", "arctic", "svalbard", "UNIS", "spitsbergen", "remote sensing", "UAV", "drones", "QGIS", "R"]
+tags: ["teaching", "arctic", "svalbard", "UNIS", "spitsbergen", "remote sensing", "UAV", "drones", "QGIS", "R"]
+slug: "teaching-remote-sensing-for-arctic-ecology-research-at-unis-svalbard"
+stylesheet: post.css
+---
+
+![](/img/teaching-remote-sensing-for-arctic-ecology-research-at-unis-svalbard/us-in-the-snow.jpg)
+<figcaption>*Figure 1: Thermal drone image of UNIS students, lecturers and tutors laying in the snow in Adventdalen, Svalbard.*</figcaption>
+
+*A similar version of this blog post has been originally published at <a href="https://remote-sensing.org/teaching-remote-sensing-for-arctic-ecology-research-at-unis-svalbard/" target="_blank">remote-sensing.org</a>, the blog of the Earth Observation Research Cluster (EORC) at University of Würzburg.*
+
+
+Even in high-latitude places like Svalbard, with temperatures reaching far below zero in the winter, a versatile ecosystem of plants and wildlife exists. In summer, vegetation thrives during the polar day, providing resources of high value to reindeer that feed exclusively on plants. In winter, the landscape is largely covered by snow and ice.
+
+Remote sensing has the potential of gaining a better understanding of the factors that influence the development of this unique ecosystem under changing conditions. In a two-day guest lecture titled “Satellite and UAV remote sensing for ecology” at the [University Centre in Svalbard (UNIS)](https://www.unis.no/), I had the opportunity to introduce UNIS students from Scandinavia and other European countries to remote sensing and its potentials for ecological research. The guest lecture was hold on invitation by [Prof. Simone Lang (UNIS)](https://www.unis.no/staff/simone-lang/) as part of her six-week intensive course on [Arctic winter ecology](https://www.unis.no/courses/ab-329-arctic-winter-ecology/).
+
+<br>
+![](/img/teaching-remote-sensing-for-arctic-ecology-research-at-unis-svalbard/schwalb-willmann-teaching.png)
+<figcaption>*Figure 2: Teaching remote sensing fundamentals at UNIS, Svalbard.*</figcaption>
+
+On the first day, students were introduced to remote sensing research applications, physical principles of remote sensing and fundamental methods for remote sensing data analysis. In an hands-on session supported by [Dr. Mirjana Bevanda (EORC, University of Würzburg)](https://www.geographie.uni-wuerzburg.de/erdbeobachtung/team/dr-mirjana-bevanda/), they learned to handle, visualize and analyze remote sensing data from both Earth observation satellites and Unoccupied Aerial Vehicles (UAVs) using geo-spatial software, including QGIS and R. Afterwards, students were introduced to UAV remote sensing sensors and platforms as well as mission planning. The day finished with the design of a real-world field campaign for the next day, including in-situ snow data collection and UAV thermal and LiDAR data collection using two drones.
+
+<br>
+![](/img/teaching-remote-sensing-for-arctic-ecology-research-at-unis-svalbard/students-measuring.jpg)
+<figcaption>*Figure 3: UNIS students digging snow pits to collect in situ snow measurements in Adventdalen, Svalbard.*</figcaption>
+
+On the second day, the group headed out to Adventdalen in the morning, were it spend the entire day. At -14 degrees Celsius and with wind blowing at ca. 4-6 m/s, the group dug 19 snow pits and measured various snow parameters, including snow depth, snow wetness, snow temperatures, snow hardness etc. To geo-locate the snow pits with high accuracy, the students learned to use real-time kinematic (RTK) corrected GPS, a technology crucial when sampling on a cm scale. Afterwards, two UAV systems were flown to map the area: a Mavic 3T, which is a small consumer drone for thermal mapping, and a Trinity, a large fixed-wing vertical take-off and landing (VTOL) drone which was equipped with a thermal and a LiDAR sensor. During the field day, UNIS students were assisted by EORC students Lena Jäger and Ronja Seitz, who are currently conducting their Master thesis projects at in cooperation between the University of Würzburg and UNIS on Svalbard, and who helped organizing the field day.
+
+<br>
+![](/img/teaching-remote-sensing-for-arctic-ecology-research-at-unis-svalbard/preparing-drone.jpg)
+<figcaption>*Figure 4: Preparing one of our research drones for flight in Adventdalen, Svalbard.*</figcaption>
+
+The practical approach of the course allowed students to later-on experiment with data they had collected themselves, e.g. by validating UAV-derived snow depth or snow temperature data against their own measurements. Data like those collected during the course are of high potential value for Arctic ecology research, as they can be used to quantify the impact of snow properties on vegetation phenology and resource development in spring and summer.
+
+<br>
+![](/img/teaching-remote-sensing-for-arctic-ecology-research-at-unis-svalbard/svalbard-landscape.jpg)
+<figcaption>*Figure 5: A landscape under snow and ice: Adventdalen, Svalbard.*</figcaption>
