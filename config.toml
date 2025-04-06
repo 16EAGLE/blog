@@ -27,6 +27,7 @@ theme = "hugo-theme-codex"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   bluesky = "https://bsky.app/profile/schwalb-willmann.de"
+  researchgate = "https://www.researchgate.net/profile/Jakob-Schwalb-Willmann"
   #twitter = "https://twitter.com/schwalbwillmann"
   github = "https://github.com/16eagle"
   email = "mailto:jakob.schwalb-willmann@uni-wuerzburg.de"

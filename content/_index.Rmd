@@ -1,6 +1,6 @@
 ---
 heading: About my work and me
-subheading: Spatial Data Science, Earth Observation & Geoanalysis
+subheading: Jakob Schwalb-Willmann – Spatial Data Science, Earth Observation, Machine Learning
 description: About
 title: About
 ---
@@ -8,11 +8,11 @@ title: About
 
 Welcome at [jakob.schwalb-willmann.de](https://jakob.schwalb-willmann.de), a page about what I do and what I am interested in! I am a **spatial data scientist**, specialized in **Earth observation** and **geo-spatial data** analysis. Professionally, I am passionate about tapping into new data sources that are currently underutilized in Earth observation research, integrating them with existing data, and **finding patterns** previously undetected. For this, I am developing and applying **machine and deep learning** techniques.
 
-For example, I am fascinated by the idea of employing animals as environmental informants by tracking them on large global scales and then letting a computer learn patterns in their interactions with the environment. To detect and utilize such **animal-environment interactions** for Earth observation, I have been jointly analyzing global animal movement tracking data and temporally synchronous environmental data acquired by satellites using deep learning.
+For example, I am fascinated by the idea of employing animals as environmental informants by tracking them on large global scales and then letting a computer learn patterns in their interactions with the environment. To detect and utilize such **animal-environment interactions** for Earth observation, I have been using deep learning to jointly analyze global animal movement tracking data and temporally synchronous environmental data acquired by satellites.
 
-Currently, I am working at the [Earth Observation Research Cluster (EORC)](https://www.geographie.uni-wuerzburg.de/erdbeobachtung/) of the [University of Wuerzburg](https://www.uni-wuerzburg.de/en/home/), where I am part of the [UAV Team](http://uas.remote-sensing.org/). There, we fly **drones** equipped with various sensors to conduct **ecological research** in cooperation with partners located around the world – from the African savannas through German temperate forests to the Arctic tundra. We use **predictive modelling** to turn this data into information of value for ecological applications.
+Currently, I am working at the [Earth Observation Research Cluster (EORC)](https://www.geographie.uni-wuerzburg.de/erdbeobachtung/) of the [University of Wuerzburg](https://www.uni-wuerzburg.de/en/home/), where I am part of the [UAV Team](http://uas.remote-sensing.org/). There, we fly **drones** equipped with various sensors to conduct **ecological research** in cooperation with partners located around the world – from the African savannas through German temperate forests to the Arctic tundra. We use **predictive modelling** to turn remote sensing data into information of value for ecological applications.
 
-I am [teaching](/talks) students in the international [EAGLE MSc. programme](http://eagle-science.org/) (Earth Observation and Geoanalysis) and the [Biosciences MSc. programme](https://www.biologie.uni-wuerzburg.de/masterbiosciences/) (Ecology) at University of Würzburg, where I hold a lecturer position since 2019. In cooperation with the [German Aerospace Center (DLR)](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-5227/) and the [Max Planck Institue for Animal Behavior](https://www.ab.mpg.de/), I am conducting my PhD research on the potentials of animal-environment interactions for remote sensing research.
+I am [teaching](/talks) students in the international [EAGLE MSc. programme](http://eagle-science.org/) (Earth Observation and Geoanalysis) and the [Biosciences MSc. programme](https://www.biologie.uni-wuerzburg.de/masterbiosciences/) (Ecology) at University of Würzburg, where I hold a lecturer position since 2019. In cooperation with the [German Aerospace Center (DLR)](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-5227/) and the [Max Planck Institue for Animal Behavior](https://www.ab.mpg.de/), I investigated the potentials of animal-environment interactions for remote sensing research as part of my PhD (2019 to 2025).
 
 You can find me elsewhere on the web [here](https://www.geographie.uni-wuerzburg.de/en/earthobservation/staff/schwalb-willmann-jakob-msc/) and [here](http://eagle-science.org/schwalb-willmann/) or on [Bluesky](https://bsky.app/profile/schwalb-willmann.de) and [GitHub](https://github.com/16eagle). Thank you for stopping by!
 
