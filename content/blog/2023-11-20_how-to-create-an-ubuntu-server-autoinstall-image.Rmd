@@ -2,7 +2,7 @@
 title: "How to create an Ubuntu Server auto-install image for a headless system"
 description: ""
 date: "2023-11-20T08:00:00-00:00"
-draft: true
+draft: false
 keywords: ["how-to", "autoinstall", "ubuntu", "linux", "server", "headless", "sysadmin"]
 tags: ["how-to", "autoinstall", "ubuntu", "linux", "server", "headless", "sysadmin"]
 slug: "how-to-create-an-ubuntu-server-auto-install-image-for-a-headless-system"

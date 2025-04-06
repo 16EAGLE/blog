@@ -13,28 +13,42 @@ title: Talks & Teaching
 
 *Since 2019, I have a teaching position at the University of Würzburg. In addition, I have been teaching at the AniMove Science Schools for several years. Find out about my talks and teaching below.*
 
+## 2025
+
+<details>
+  <summary>Seminar **"Introduction into remote sensing for ecological analyses"**, [Biology MSc., University of Würzburg](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
+  <p>In this course, ecology students are introduced to remote sensing and geo-analysis for ecological research applications and learn to independently use remote sensing in their own research fields. In the first week, students are introduced to remote sensing and geo-spatial data and methods and learn to use `QGIS` and `R` for geo-spatial analysis. In the second week, they apply remote sensing and geo-analysis to answer their own real-world ecological research questions. At the end of the course, they present their remote-sensing-enabled findings.</p>
+  <p>*Duration: 10 sessions (full days, 2-weeks block)*</p>
+</details>
+
+<details>
+  <summary>Guest Lecture **"Satellite and UAV remote sensing for arctic ecology research"**, [Arctic Winter Ecology MSc., UNIS, Svalbard](https://www.unis.no/courses/ab-329-arctic-winter-ecology/)</summary>
+  <p>In this guest lecture, Arctic winter ecology MSc. students were introduced to satellite and UAV remote sensing and geo-analysis for ecological research applications in the Arctic. The guest lecture was hold on invitation by [Prof. Dr. Simone Lang (UNIS)](https://www.unis.no/staff/simone-lang/) as part of a six-week international [MSc. course on Arctic winter ecology](https://www.unis.no/courses/ab-329-arctic-winter-ecology/). On the first day, students were introduced to remote sensing research applications, physical principles of remote sensing and fundamental methods for remote sensing data analysis. In an hands-on session, they learned to handle, visualize and analyze remote sensing data from both Earth observation satellites and Unoccupied Aerial Vehicles (UAVs) using geo-spatial software, including *QGIS* and `R`. Afterwards, students were introduced to UAV remote sensing sensors and platforms as well as mission planning. The day finished with the design of a real-world field campaign for the next day, including in-situ snow data collection and UAV thermal and LiDAR data collection using two drones. On the second day, students learned in the field how to in-situ collecting snow parameters,, including snow depth, snow wetness, snow temperatures, snow hardness etc. To geo-locate in-situ measurements with high accuracy, students learned to use real-time kinematic (RTK) corrected GPS. Afterwards, two UAV systems were flown to map the research area, equipped with a thermal and a LiDAR sensor. Later-on, students had the chance to experiment with the data they had collected themselves, e.g. by validating UAV-derived snow depth or snow temperature data against their own measurements. The data collected during the course are of high potential value for Arctic ecology research, as they can be used to quantify the impact of snow properties on vegetation phenology and resource development in spring and summer.</p>
+  <p>*Duration: 2 sessions (full days, 2-days block)*</p>
+</details>
+
 ## 2024
 
 <details>
-  <summary>Seminar **"Building web applications and interactive visualizations"**, [EAGLE MSc.](https://eagle-science.org)</summary>
+  <summary>Seminar **"Building web applications and interactive visualizations"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
   <p>Interactive visualizations using `shiny` for `R` in combination with `leaflet`, `plotly`, `ggplot2` and `LaTeX`. Basics of web design using `html`, `css` and `javascript`. Basics on *Declarative Programming* and *Lazy Execution*. Introduction into client-server communication using *reactive contexts* and *event observation*. Introduction into basic *UI* design such as dashboard UIs, interactive maps, interactive plots etc.</p>
   <p>*Duration: 3 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Deep learning for Earth observation"**, [EAGLE MSc.](https://eagle-science.org)</summary>
+  <summary>Seminar **"Deep learning for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
   <p>This methodological course introduces *Deep Learning* with a practical focus on how to use it for image processing in Earth observation. Students get to know the principles behind the design of Neural Networks and the training thereof using *Deep Learning*. They learn about loss, backpropagation, optimization, activation functions & vanishing gradients, over- & underfitting, regularization, augmentation, convolutions, layers of state vs. stateless layers, sequential and non-sequential network designs for image processing tasks such as classification and segmentation etc. The course is taught in `R` and `Pyhton`, mainly using `keras` and `tensorflow`.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Introduction into remote sensing for ecological analyses"**, [Biology MSc.](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
+  <summary>Seminar **"Introduction into remote sensing for ecological analyses"**, [Biology MSc., University of Würzburg](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
   <p>Remote sensing applications; physical principles (electromagnetic radiation, absorption, emission, reflectance, optics, spectral information); spatial raster & vector data types; coordinate reference systems & projections; *QGIS* & `R`; `R` for spatial & remote sensing data analysis; spectral indices; basic modelling (classifiers, regressions); generating experience-driven ground truth using digitization; supervised classifications; (statistical) validation; accuracy assessment; scale of data vs. scale of observation targets; resolutions.</p>
   <p>*Duration: 10 sessions (full days, 2-weeks block)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Animal movement tracking data analysis for Earth observation"**, [EAGLE MSc.](https://eagle-science.org)</summary>
+  <summary>Seminar **"Animal movement tracking data analysis for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
   <p>This modelling course introduces concepts and methods to Earth observation students who want to learn to work with animal movement trajectories, a special type of spatio-temporal data, and integrate such with Earth observation analyses. The course aims to find data-driven answers to questions such as: Why do animals move through the landscape the way they do? How are they impacted by their environments? And: Which environmental conditions are tied to what kind of of movement behavior? While the course introduces background knowledge on topics such as movement theory, the effects of discretely observing continuous processes (e.g. sampling rate, autocorrelation, bias etc.), scale-dependencies/matching, tracking approaches and location error, its practical focus lays on methods to handle and analyze tracking data (e.g. using geometric & variance component analyses, behavioral segmentation, area-metrics such as home ranges, remote-sensing driven trajectory analysis incl. corridor analysis & habitat analysis) as well as tracking data in combination with remotely sensed environmental data (e.g. through resource utilization modelling, resource selection modelling and step selection modelling). This leads students to eventually be able to independently spot patterns in movement data, make connections to environmental conditions, and, finally, jointly model movement tracking and remotely sensed environmental data.</p>
   <p>*Duration: 5 sessions (full days, 1-week block)*</p>
 </details>
@@ -42,37 +56,37 @@ title: Talks & Teaching
 ## 2023
 
 <details>
-<summary>Seminar **"Introduction into programming and geo-statistics"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+<summary>Seminar **"Introduction into programming and geo-statistics"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>Basics of `R` & *QGIS*; version control using *git*; `R` in comparison to other languages (interpreter vs. compiler, memory management etc.); programming paradigms; procedural vs. object-oriented vs. functional programming; types/modes, structures, indexing; implicit vs. explicit type conversion; control flow constructs & vectorization; functions; package building; data visualization; statistics; spatial data analysis; image processing; classification models etc.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-<summary>Seminar **"Cloud Computing: Google Earth Engine in R"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+<summary>Seminar **"Cloud Computing: Google Earth Engine in R"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>A practical guide towards building custom GEE processing pipelines natively in `R` using `rgee`.</p>
   <p>*Duration: 1 session (1.5 hours)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Deep learning for Earth observation"**, [EAGLE MSc.](https://eagle-science.org)</summary>
+  <summary>Seminar **"Deep learning for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
   <p>This methodological course introduces *Deep Learning* with a practical focus on how to use it for image processing in Earth observation. Students get to know the principles behind the design of Neural Networks and the training thereof using *Deep Learning*. They learn about loss, backpropagation, optimization, activation functions & vanishing gradients, over- & underfitting, regularization, augmentation, convolutions, layers of state vs. stateless layers, sequential and non-sequential network designs for image processing tasks such as classification and segmentation etc. The course is taught in `R` and `Pyhton`, mainly using `keras` and `tensorflow`.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Remote sensing field methods for ecological analyses"**, [Biology MSc.](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
+  <summary>Seminar **"Remote sensing field methods for ecological analyses"**, [Biology MSc., University of Würzburg](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
   <p>This course introduces remote sensing field methods to ecologists. They are get to know field campaigning (sampling methods, routing, positioning etc.), in-situ data sampling (parameters, field devices such as spectrometers, soil moisture probes etc.) and UAS (drone) imagery acquisition (platforms, sensors, flight planning, licensing, training). This prepares them for a field day at a research site where data are collected under real-world research conditions. Afterwards, they learn to handle, process and analyse the recorded data and turn them into interpretable information.</p>
   <p>*Duration: 10 sessions (full days, 2-weeks block)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Animal movement tracking data analysis for Earth observation"**, [EAGLE MSc.](https://eagle-science.org)</summary>
+  <summary>Seminar **"Animal movement tracking data analysis for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
   <p>This modelling course introduces concepts and methods to Earth observation students who want to learn to work with animal movement trajectories, a special type of spatio-temporal data, and integrate such with Earth observation analyses. The course aims to find data-driven answers to questions such as: Why do animals move through the landscape the way they do? How are they impacted by their environments? And: Which environmental conditions are tied to what kind of of movement behavior? While the course introduces background knowledge on topics such as movement theory, the effects of discretely observing continuous processes (e.g. sampling rate, autocorrelation, bias etc.), scale-dependencies/matching, tracking approaches and location error, its practical focus lays on methods to handle and analyze tracking data (e.g. using geometric & variance component analyses, behavioral segmentation, area-metrics such as home ranges, remote-sensing driven trajectory analysis incl. corridor analysis & habitat analysis) as well as tracking data in combination with remotely sensed environmental data (e.g. through resource utilization modelling, resource selection modelling and step selection modelling). This leads students to eventually be able to independently spot patterns in movement data, make connections to environmental conditions, and, finally, jointly model movement tracking and remotely sensed environmental data.</p>
   <p>*Duration: 5 sessions (full days, 1-week block)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Introduction into remote sensing for ecological analyses"**, [Biology MSc.](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
+  <summary>Seminar **"Introduction into remote sensing for ecological analyses"**, [Biology MSc., University of Würzburg](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
   <p>Remote sensing applications; physical principles (electromagnetic radiation, absorption, emission, reflectance, optics, spectral information); spatial raster & vector data types; coordinate reference systems & projections; *QGIS* & `R`; `R` for spatial & remote sensing data analysis; spectral indices; basic modelling (classifiers, regressions); generating experience-driven ground truth using digitization; supervised classifications; (statistical) validation; accuracy assessment; scale of data vs. scale of observation targets; resolutions.</p>
   <p>*Duration: 10 sessions (full days, 2-weeks block)*</p>
 </details>
@@ -80,13 +94,13 @@ title: Talks & Teaching
 ## 2022
 
 <details>
-<summary>Seminar **"Introduction into programming and geo-statistics"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+<summary>Seminar **"Introduction into programming and geo-statistics"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>Basics of `R` & *QGIS*; version control using *git*; `R` in comparison to other languages (interpreter vs. compiler, memory management etc.); programming paradigms; procedural vs. object-oriented vs. functional programming; types/modes, structures, indexing; implicit vs. explicit type conversion; control flow constructs & vectorization; functions; package building; data visualization; statistics; spatial data analysis; image processing; classification models etc.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Lecture **"Applications of Earth observation"**, [EAGLE MSc.](https://eagle-science.org)</summary>
+  <summary>Lecture **"Applications of Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
   <p>Remote sensing of forests, vulnerabilities & risks, biodiversity, wildlife ecology, natural resources, fire & burnt areas, coasts, diseases & health, agriculture, soil, land cover & land use, human settlements, policy etc.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
@@ -102,33 +116,33 @@ title: Talks & Teaching
 </details>
 
 <details>
-  <summary>Seminar **"Remote sensing field methods for ecological analyses"**, [Biology MSc.](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
+  <summary>Seminar **"Remote sensing field methods for ecological analyses"**, [Biology MSc., University of Würzburg](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
   <p>This course introduces remote sensing field methods to ecologists. They are get to know field campaigning (sampling methods, routing, positioning etc.), in-situ data sampling (parameters, field devices such as spectrometers, soil moisture probes etc.) and UAS (drone) imagery acquisition (platforms, sensors, flight planning, licensing, training). This prepares them for a field day at a research site where data are collected under real-world research conditions. Afterwards, they learn to handle, process and analyse the recorded data and turn them into interpretable information.</p>
   <p>*Duration: 10 sessions (full days, 2-week block)*</p>
 </details>
 
 
 <details>
-  <summary>Seminar **"Deep learning for Earth observation"**, [EAGLE MSc.](https://eagle-science.org)</summary>
+  <summary>Seminar **"Deep learning for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
   <p>This methodological course introduces *Deep Learning* with a practical focus on how to use it for image processing in Earth observation. Students get to know the principles behind the design of Neural Networks and the training thereof using *Deep Learning*. They learn about loss, backpropagation, optimization, activation functions & vanishing gradients, over- & underfitting, regularization, augmentation, convolutions, layers of state vs. stateless layers, sequential and non-sequential network designs for image processing tasks such as classification and segmentation etc. The course is taught in `R` and `Pyhton`, mainly using `keras` and `tensorflow`.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Scientific graphics"**, [EAGLE MSc.](https://eagle-science.org)</summary>
+  <summary>Seminar **"Scientific graphics"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
   <p>(Interactive) visualizations using `LaTeX`, `leaflet`, `plotly`, `ggplot2`, `shiny`, basics of web design using `html`, `css`, `javascript` (including frameworks such as `bootstrap`), static site generation frameworks such as `hugo`, `jekyll` etc.</p>
   <p>*Duration: 5 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Animal movement tracking data analysis for Earth observation"**, [EAGLE MSc.](https://eagle-science.org)</summary>
+  <summary>Seminar **"Animal movement tracking data analysis for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
   <p>This modelling course introduces concepts and methods to Earth observation students who want to learn to work with animal movement trajectories, a special type of spatio-temporal data, and integrate such with Earth observation analyses. The course aims to find data-driven answers to questions such as: Why do animals move through the landscape the way they do? How are they impacted by their environments? And: Which environmental conditions are tied to what kind of of movement behavior? While the course introduces background knowledge on topics such as movement theory, the effects of discretely observing continuous processes (e.g. sampling rate, autocorrelation, bias etc.), scale-dependencies/matching, tracking approaches and location error, its practical focus lays on methods to handle and analyze tracking data (e.g. using geometric & variance component analyses, behavioral segmentation, area-metrics such as home ranges, remote-sensing driven trajectory analysis incl. corridor analysis & habitat analysis) as well as tracking data in combination with remotely sensed environmental data (e.g. through resource utilization modelling, resource selection modelling and step selection modelling). This leads students to eventually be able to independently spot patterns in movement data, make connections to environmental conditions, and, finally, jointly model movement tracking and remotely sensed environmental data.</p>
   <p>*Duration: 5 sessions (full days, 1-week block)*</p>
 </details>
 
 
 <details>
-  <summary>Seminar **"Introduction into remote sensing for ecological analyses"**, [Biology MSc.](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
+  <summary>Seminar **"Introduction into remote sensing for ecological analyses"**, [Biology MSc., University of Würzburg](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
   <p>Remote sensing applications; physical principles (electromagnetic radiation, absorption, emission, reflectance, optics, spectral information); spatial raster & vector data types; coordinate reference systems & projections; *QGIS* & `R`; `R` for spatial & remote sensing data analysis; spectral indices; basic modelling (classifiers, regressions); generating experience-driven ground truth using digitization; supervised classifications; (statistical) validation; accuracy assessment; scale of data vs. scale of observation targets; resolutions.</p>
   <p>*Duration: 10 sessions (full days, 2-weeks block)*</p>
 </details>
@@ -137,37 +151,37 @@ title: Talks & Teaching
 ## 2021
 
 <details>
-<summary>Seminar **"Introduction into programming and geo-statistics"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+<summary>Seminar **"Introduction into programming and geo-statistics"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>Basics of `R` & *QGIS*; version control using *git*; `R` in comparison to other languages (interpreter vs. compiler, memory management etc.); programming paradigms; procedural vs. object-oriented vs. functional programming; types/modes, structures, indexing; implicit vs. explicit type conversion; control flow constructs & vectorization; functions; package building; data visualization; statistics; spatial data analysis; image processing; classification models etc.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Lecture **"Applications of Earth observation"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+  <summary>Lecture **"Applications of Earth observation"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>Remote sensing of forests, vulnerabilities & risks, biodiversity, wildlife ecology, natural resources, fire & burnt areas, coasts, diseases & health, agriculture, soil, land cover & land use, human settlements, policy etc.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Deep Learning for Earth observation"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+  <summary>Seminar **"Deep Learning for Earth observation"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>This methodological course introduces *Deep Learning* with a practical focus on how to use it for image processing in Earth observation. Students get to know the principles behind the design of Neural Networks and the training thereof using *Deep Learning*. They learn about loss, backpropagation, optimization, activation functions & vanishing gradients, over- & underfitting, regularization, augmentation, convolutions, layers of state vs. stateless layers, sequential and non-sequential network designs for image processing tasks such as classification and segmentation etc. The course is taught in `R` and `Pyhton`, mainly using `keras` and `tensorflow`.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Hyperspectral remote sensing"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+  <summary>Seminar **"Hyperspectral remote sensing"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>Spectrometric field sampling, hyperspectral image processing, spectral unmixing in `R` & *QGIS* etc.</p>
   <p>*Duration: 2 sessions (full days, 2-days block)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Scientific graphics"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+  <summary>Seminar **"Scientific graphics"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>(Interactive) visualizations using `LaTeX`, `leaflet`, `plotly`, `ggplot2`, `shiny`, basics of web design using `html`, `css`, `javascript` (including frameworks such as `bootstrap`), static site generation frameworks such as `hugo`, `jekyll` etc.</p>
   <p>*Duration: 5 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Animal movement tracking data analysis for Earth observation"**, [EAGLE MSc.](https://eagle-science.org)</summary>
+  <summary>Seminar **"Animal movement tracking data analysis for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
   <p>This modelling course introduces concepts and methods to Earth observation students who want to learn to work with animal movement trajectories, a special type of spatio-temporal data, and integrate such with Earth observation analyses. The course aims to find data-driven answers to questions such as: Why do animals move through the landscape the way they do? How are they impacted by their environments? And: Which environmental conditions are tied to what kind of of movement behavior? While the course introduces background knowledge on topics such as movement theory, the effects of discretely observing continuous processes (e.g. sampling rate, autocorrelation, bias etc.), scale-dependencies/matching, tracking approaches and location error, its practical focus lays on methods to handle and analyze tracking data (e.g. using geometric & variance component analyses, behavioral segmentation, area-metrics such as home ranges, remote-sensing driven trajectory analysis incl. corridor analysis & habitat analysis) as well as tracking data in combination with remotely sensed environmental data (e.g. through resource utilization modelling, resource selection modelling and step selection modelling). This leads students to eventually be able to independently spot patterns in movement data, make connections to environmental conditions, and, finally, jointly model movement tracking and remotely sensed environmental data.</p>
   <p>*Duration: 5 sessions (full days, 1-week block)*</p>
 </details>
@@ -175,31 +189,31 @@ title: Talks & Teaching
 ## 2020
 
 <details>
-<summary>Seminar **"Introduction into programming and geo-statistics"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+<summary>Seminar **"Introduction into programming and geo-statistics"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>Basics of `R` & *QGIS*; version control using *git*; `R` in comparison to other languages (interpreter vs. compiler, memory management etc.); programming paradigms; procedural vs. object-oriented vs. functional programming; types/modes, structures, indexing; implicit vs. explicit type conversion; control flow constructs & vectorization; functions; package building; data visualization; statistics; spatial data analysis; image processing; classification models etc.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Lecture **"Applications of Earth observation"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+  <summary>Lecture **"Applications of Earth observation"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>Remote sensing of forests, vulnerabilities & risks, biodiversity, wildlife ecology, natural resources, fire & burnt areas, coasts, diseases & health, agriculture, soil, land cover & land use, human settlements, policy etc.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Advanced Programming for Spatial Analysis"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+  <summary>Seminar **"Advanced Programming for Spatial Analysis"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>introduction into machine learning, deep neural networks, computer vision, discriminative modelling; (web-)APIs, web protocols, machine-to-machine communication; development environments, code maintenance, unit testing, continuous integration, version control etc.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Hyperspectral remote sensing"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+  <summary>Seminar **"Hyperspectral remote sensing"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>Spectrometric field sampling, hyperspectral image processing, spectral unmixing in `R` & *QGIS* etc.</p>
   <p>*Duration: 2 sessions (full days, 2-days block)*</p>
 </details>
 
 <details>
-  <summary>Seminar **"Scientific graphics"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+  <summary>Seminar **"Scientific graphics"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>(Interactive) visualizations using `LaTeX`, `leaflet`, `plotly`, `ggplot2`, `shiny`, basics of web design using `html`, `css`, `javascript` (including frameworks such as `bootstrap`), static site generation frameworks such as `hugo`, `jekyll` etc.</p>
   <p>*Duration: 5 sessions (1.5 hours each)*</p>
 </details>
@@ -217,13 +231,13 @@ title: Talks & Teaching
 </details>
 
 <details>
-  <summary>Seminar **"Advanced Programming for Spatial Analysis"**, [EAGLE MSc.](http://eagle-science.org)</summary>
+  <summary>Seminar **"Advanced Programming for Spatial Analysis"**, [EAGLE MSc., University of Würzburg](http://eagle-science.org)</summary>
   <p>introduction into machine learning, deep neural networks, computer vision, discriminative modelling; (web-)APIs, web protocols, machine-to-machine communication; development environments, code maintenance, unit testing, continuous integration, version control etc.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
 
 <details>
-  <summary>Guest Lecture **"Animal Movement Tracking for Remote Sensing"**, [Geography BSc.](https://www.geographie.uni-wuerzburg.de/en/studies/)</summary>
+  <summary>Guest Lecture **"Animal Movement Tracking for Remote Sensing"**, [Geography BSc., University of Würzburg](https://www.geographie.uni-wuerzburg.de/en/studies/)</summary>
   <p>Title of the talk: *Potentials of integrating animal movement tracking data with remote sensing.*</p>
 </details>
 

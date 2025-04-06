@@ -17,13 +17,13 @@ title: Projects
 
 ## Research
 
-**Project work** (ongoing) – *Satellite/UAV remote sensing for ecological research applications*, e.g. investigating the potentials of *monitoring forests*, detecting, differentiating and mapping *terrestrial plastics*, and mapping *animal paths*, applying both satellite and UAV (drone) remote sensing using multi-spectral, thermal, LiDAR and hyper-spectral sensors. Earth Observation Research Cluster, University of Würzburg.
+**Project work** (ongoing) – *Satellite/UAV remote sensing for ecological research applications*: Applying satellite and UAV remote sensing using multi-spectral, thermal, LiDAR and hyper-spectral sensors to monitor forests, detect terrestrial plastics, and map *animal paths*. [Earth Observation Research Cluster](https://www.geographie.uni-wuerzburg.de/en/earthobservation/), [University of Würzburg](https://www.uni-wuerzburg.de/en/).
 
-**PhD** (ongoing) – *"Potentials of animal-environment interactions for remote sensing research"*, supervised by Prof. Dr. Stefan Dech (German Aerospace Center, DLR/University of Würzburg), Prof. Dr. Martin Wikelski (Max Planck Institute for Animal Behavior/University of Konstanz) and Prof. Dr. Tobias Ullmann (University of Würzburg).
+**Dissertation** (2025) – *"Potentials of animal-environment interactions for remote sensing research"*, supervised by Prof. Dr. Stefan Dech (German Aerospace Center, DLR/University of Würzburg), Prof. Dr. Martin Wikelski (Max Planck Institute for Animal Behavior/University of Konstanz) and Prof. Dr. Tobias Ullmann (University of Würzburg), mentored by Dr. Martin Wegmann (University of Würzburg).
 
-**MSc** (2018) – *[A deep learning movement prediction framework for identifying anomalies in animal-environment interactions](https://elib.dlr.de/123853/)*. Julius Maximilians University Würzburg/German Aerospace Center (DLR).
+**MSc. thesis** (2018) – *[A deep learning movement prediction framework for identifying anomalies in animal-environment interactions](https://elib.dlr.de/123853/)*, supervised by Dr. Martin Wegmann (University of Würzburg) and Dr. Kamran Safi (Max Planck Institute for Animal Behavior).
 
-**BSc** (2016) – *[Comparison of different algorithms for calculating broadband albedo from AVHRR data](https://elib.dlr.de/107761/)*. Ludwig Maximilians University Munich/German Aerospace Center (DLR).
+**BSc. thesis** (2016) – *[Comparison of different algorithms for calculating broadband albedo from AVHRR data](https://elib.dlr.de/107761/)*, supervised by Prof. Dr. Wolfram Mauser (Ludwig Maximilians University of Munich) and Dr. Corinne Frey (German Aerospace Center, DLR).
 
 ## Writing
 
