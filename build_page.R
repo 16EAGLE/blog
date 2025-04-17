@@ -33,6 +33,6 @@ if(any(file.exists(files))){
   stop("Files not found!")
 }
 # close down
-cat("Stop serve\n")
+readline(prompt = "Stop server? [any key] >>> ")
 blogdown::stop_server()
 
