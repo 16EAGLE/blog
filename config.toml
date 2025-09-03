@@ -1,7 +1,7 @@
 # Override these settings with your own
 languageCode = "en-us"
 baseURL = "https://jakob.schwalb-willmann.de/"
-copyright = "© {year} Jakob Schwalb-Willmann"
+copyright = "© 2018-{year} Jakob Schwalb-Willmann"
 title = "Jakob Schwalb-Willmann"
 
 # The value "hugo-theme-codex" is only to get the exampleSite
