@@ -16,6 +16,24 @@ title: Talks & Teaching
 ## 2025
 
 <details open>
+  <summary>Seminar **"Remote sensing for ecology: Quantifying the environment using UAV and in-situ sensors"**, [Biology MSc., University of Würzburg](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
+  <p>This course introduces UAV/UAS (drone) remote sensing and field methods to ecologists. They get to know field campaigning (sampling methods, routing, positioning etc.), in-situ data sampling (parameters, field devices such as spectrometers, soil moisture probes etc.) and UAS (drone) imagery acquisition (platforms, sensors, flight planning, licensing, training). The course prepares them for a field day at a research site where data are collected under real-world research conditions. Afterwards, they learn to handle, process and analyse the recorded data and turn them into interpretable information. During the course, students create a personal guide book that they can use later in their careers to successfully conduct UAV research.</p>
+  <p>*Duration: 10 sessions (full days, 2-weeks block)*</p>
+</details>
+
+<details>
+  <summary>Seminar **"Deep Learning for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
+  <p>This methodological course introduces *Deep Learning* with a practical focus on how to use it for image processing in Earth observation. Students get to know the principles behind the design of Neural Networks and the training thereof using *Deep Learning*. They learn about loss, backpropagation, optimization, activation functions & vanishing gradients, over- & underfitting, regularization, augmentation, convolutions, layers of state vs. stateless layers, sequential and non-sequential network designs for image processing tasks such as classification and segmentation etc. The course is taught `Pyhton` and `R`, mainly using `keras` and `tensorflow`.</p>
+  <p>*Duration: 12 sessions (1.5 hours each)*</p>
+</details>
+
+<details>
+  <summary>Seminar **"Animal movement tracking data analysis for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
+  <p>This modelling course introduces concepts and methods to Earth observation students who want to learn to work with animal movement trajectories, a special type of spatio-temporal data, and integrate such with Earth observation analyses. The course aims to find data-driven answers to questions such as: Why do animals move through the landscape the way they do? How are they impacted by their environments? And: Which environmental conditions are tied to what kind of of movement behavior? While the course introduces background knowledge on topics such as movement theory, the effects of discretely observing continuous processes (e.g. sampling rate, autocorrelation, bias etc.), scale-dependencies/matching, tracking approaches and location error, its practical focus lays on methods to handle and analyze tracking data (e.g. using geometric & variance component analyses, behavioral segmentation, area-metrics such as home ranges, remote-sensing driven trajectory analysis incl. corridor analysis & habitat analysis) as well as tracking data in combination with remotely sensed environmental data (e.g. through resource utilization modelling, resource selection modelling and step selection modelling). This leads students to eventually be able to independently spot patterns in movement data, make connections to environmental conditions, and, finally, jointly model movement tracking and remotely sensed environmental data.</p>
+  <p>*Duration: 4 sessions (4 hours each)*</p>
+</details>
+
+<details>
   <summary>Seminar **"Introduction into remote sensing for ecological analyses"**, [Biology MSc., University of Würzburg](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
   <p>In this course, ecology students are introduced to remote sensing and geo-analysis for ecological research applications and learn to independently use remote sensing in their own research fields. In the first week, students are introduced to remote sensing and geo-spatial data and methods and learn to use `QGIS` and `R` for geo-spatial analysis. In the second week, they apply remote sensing and geo-analysis to answer their own real-world ecological research questions. At the end of the course, they present their remote-sensing-enabled findings.</p>
   <p>*Duration: 10 sessions (full days, 2-weeks block)*</p>
@@ -36,8 +54,8 @@ title: Talks & Teaching
 </details>
 
 <details>
-  <summary>Seminar **"Deep learning for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
-  <p>This methodological course introduces *Deep Learning* with a practical focus on how to use it for image processing in Earth observation. Students get to know the principles behind the design of Neural Networks and the training thereof using *Deep Learning*. They learn about loss, backpropagation, optimization, activation functions & vanishing gradients, over- & underfitting, regularization, augmentation, convolutions, layers of state vs. stateless layers, sequential and non-sequential network designs for image processing tasks such as classification and segmentation etc. The course is taught in `R` and `Pyhton`, mainly using `keras` and `tensorflow`.</p>
+  <summary>Seminar **"Deep Learning for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
+  <p>This methodological course introduces *Deep Learning* with a practical focus on how to use it for image processing in Earth observation. Students get to know the principles behind the design of Neural Networks and the training thereof using *Deep Learning*. They learn about loss, backpropagation, optimization, activation functions & vanishing gradients, over- & underfitting, regularization, augmentation, convolutions, layers of state vs. stateless layers, sequential and non-sequential network designs for image processing tasks such as classification and segmentation etc. The course is taught `Pyhton` and `R`, mainly using `keras` and `tensorflow`.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
 
@@ -68,7 +86,7 @@ title: Talks & Teaching
 </details>
 
 <details>
-  <summary>Seminar **"Deep learning for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
+  <summary>Seminar **"Deep Learning for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
   <p>This methodological course introduces *Deep Learning* with a practical focus on how to use it for image processing in Earth observation. Students get to know the principles behind the design of Neural Networks and the training thereof using *Deep Learning*. They learn about loss, backpropagation, optimization, activation functions & vanishing gradients, over- & underfitting, regularization, augmentation, convolutions, layers of state vs. stateless layers, sequential and non-sequential network designs for image processing tasks such as classification and segmentation etc. The course is taught in `R` and `Pyhton`, mainly using `keras` and `tensorflow`.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
@@ -123,7 +141,7 @@ title: Talks & Teaching
 
 
 <details>
-  <summary>Seminar **"Deep learning for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
+  <summary>Seminar **"Deep Learning for Earth observation"**, [EAGLE MSc., University of Würzburg](https://eagle-science.org)</summary>
   <p>This methodological course introduces *Deep Learning* with a practical focus on how to use it for image processing in Earth observation. Students get to know the principles behind the design of Neural Networks and the training thereof using *Deep Learning*. They learn about loss, backpropagation, optimization, activation functions & vanishing gradients, over- & underfitting, regularization, augmentation, convolutions, layers of state vs. stateless layers, sequential and non-sequential network designs for image processing tasks such as classification and segmentation etc. The course is taught in `R` and `Pyhton`, mainly using `keras` and `tensorflow`.</p>
   <p>*Duration: 12 sessions (1.5 hours each)*</p>
 </details>
