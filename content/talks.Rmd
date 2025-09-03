@@ -15,7 +15,7 @@ title: Talks & Teaching
 
 ## 2025
 
-<details>
+<details open>
   <summary>Seminar **"Introduction into remote sensing for ecological analyses"**, [Biology MSc., University of Würzburg](https://www.biologie.uni-wuerzburg.de/en/biostudium/master/)</summary>
   <p>In this course, ecology students are introduced to remote sensing and geo-analysis for ecological research applications and learn to independently use remote sensing in their own research fields. In the first week, students are introduced to remote sensing and geo-spatial data and methods and learn to use `QGIS` and `R` for geo-spatial analysis. In the second week, they apply remote sensing and geo-analysis to answer their own real-world ecological research questions. At the end of the course, they present their remote-sensing-enabled findings.</p>
   <p>*Duration: 10 sessions (full days, 2-weeks block)*</p>
