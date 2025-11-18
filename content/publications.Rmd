@@ -11,9 +11,17 @@ title: Publications
 <a href="https://pelagicpublishing.com/products/an-introduction-to-spatial-data-analysis?variant=31129275498601" target="_blank">![An Introduction to Spatial Data Analysis](/img/publications.jpg)</a>
 <figcaption>*"An Introduction to Spatial Data Analysis" helps beginners getting started working with spatial data in QGIS and R.*</figcaption>
 
+**Schwalb-Willmann, J.**, Castañeda-Gómez, A. J., Rauth, E., Buchelt, S., Jäger, L., Seitz, R., Pflumm, L., Klein, D., Dech, S., Ullmann, T., Wegmann, M., Lang, S., Beumer, L., & Bevanda, M. (2025). *[Potential of UAV-derived high-resolution snow depth mapping to advance arctic ecological research on Svalbard](https://doi.org/10.13140/RG.2.2.22712.00002)* [Conference poster]. GfÖ Annual Meeting, 1st to 5th of September 2025, Würzburg, Germany. https://doi.org/10.13140/RG.2.2.22712.00002
+
+Castañeda-Gómez, A. J., **Schwalb-Willmann, J.**, Klein, D., Dech, S., Wegmann, M., Müller, J., Ullmann, T., & Bevanda, M. (2025). *Assessing multispectral data comparability between sentinel-2 and UAS imagery in the context of forest monitoring* [Conference poster]. ESA Living Planet Symposium, 23st to 27th of June 2025, Vienna, Austria.
+
+Müller, K.; **Schwalb-Willmann, J.**; Wegmann, M.; & Leutner, B. (2025). *[RStoolbox: An R Package for Remote Sensing Data Analysis](https://doi.org/10.13140/RG.2.2.29464.46083)* [Conference poster]. ESA Living Planet Symposium, 23st to 27th of June 2025, Vienna, Austria. https://doi.org/10.13140/RG.2.2.29464.46083
+
+Müller, K., Sonntag, L., Bevanda, M., Castañeda-Gómez, A. J., Wegmann, M., Wigley, B., Coetsee, C., Klein, D., Dech, S., & **Schwalb-Willmann, J.** (2025). *[From Pixels to Paths: Animal Path Mapping using UAVs and a Deep Convolutional Neural Network—Insights from the Kruger National Park](https://doi.org/10.13140/RG.2.2.34141.47840)* [Conference poster]. ESA Living Planet Symposium, 23st to 27th of June 2025, Vienna, Austria. https://doi.org/10.13140/RG.2.2.34141.47840
+
 Müller, K.; **Schwalb-Willmann, J.**; Wegmann, M.; & Leutner, B. (2025). [RStoolbox: An R package for remote sensing data analysis](https://doi.org/10.1111/2041-210X.14451). *Methods Ecol Evol. 2025; 16: 486-495.* https://doi.org/10.1111/2041-210X.14451
 
-Friedrich, C.; Löw, J.; Otte, I.; Hill, S.; Förtsch, S.; **Schwalb-Willmann, J.**; Gessner, U.; Schierghofer, C.; Truckenbrodt, S.; Schonert, E.; Piernicke, T.; Assmann, D.; Conrad, C.; Thiel, M. (2024). [A multi-talented datacube: integrating, processing and presenting big geodata for the agricultural end user](https://www.researchgate.net/publication/378635392_A_multi-talented_datacube_integrating_processing_and_presenting_big_geodata_for_the_agricultural_end_user). *Conference Paper*.
+Friedrich, C., Löw, J., Otte, I., Hill, S., Förtsch, S., **Schwalb-Willmann, J.**, Gessner, U., Schierghofer, C., Truckenbrodt, S., Schonert, E., Piernicke, T., Assmann, D., Conrad, C., & Thiel, M. (2024). [A multi-talented datacube: integrating, processing and presenting big geodata for the agricultural end user](https://www.researchgate.net/publication/378635392_A_multi-talented_datacube_integrating_processing_and_presenting_big_geodata_for_the_agricultural_end_user). *Informatik in der Land-, Forst und Ernährungswirtschaft. Fokus: Biodiversität fördern durch digitale Landwirtschaft.*, 251–256. https://dl.gi.de/handle/20.500.12116/43882
 
 Wegmann, M.; **Schwalb-Willmann, J.**; Dech, S. (2020). [An Introduction to Spatial Data Analysis: Remote Sensing and GIS with Open Source Software](https://pelagicpublishing.com/products/an-introduction-to-spatial-data-analysis?variant=31129275498601). Exeter, UK. *Pelagic Publishing*. ISBN: 9781784272135.
 
