@@ -11,6 +11,8 @@ title: Publications
 <a href="https://pelagicpublishing.com/products/an-introduction-to-spatial-data-analysis?variant=31129275498601" target="_blank">![An Introduction to Spatial Data Analysis](/img/publications.jpg)</a>
 <figcaption>*"An Introduction to Spatial Data Analysis" helps beginners getting started working with spatial data in QGIS and R.*</figcaption>
 
+Müller, K., Sonntag, L., Bevanda, M., Castañeda-Gomezm A. J., Wegmann, M., Wigley, B., Coetsee, C., Klein, D., Dech, S., **Schwalb-Willmann, J.** (2026). [Automized segmentation of animal paths in UAS imagery using deep learning - a case study from the Kruger National Park.](https://doi.org/10.1016/j.ecoinf.2025.103570) *Ecological Informatics 2026; 93: 103570.* https://doi.org/10.1016/j.ecoinf.2025.103570
+
 **Schwalb-Willmann, J.**, Castañeda-Gómez, A. J., Rauth, E., Buchelt, S., Jäger, L., Seitz, R., Pflumm, L., Klein, D., Dech, S., Ullmann, T., Wegmann, M., Lang, S., Beumer, L., & Bevanda, M. (2025). *[Potential of UAV-derived high-resolution snow depth mapping to advance arctic ecological research on Svalbard](https://doi.org/10.13140/RG.2.2.22712.00002)* [Conference poster]. GfÖ Annual Meeting, 1st to 5th of September 2025, Würzburg, Germany. https://doi.org/10.13140/RG.2.2.22712.00002
 
 Castañeda-Gómez, A. J., **Schwalb-Willmann, J.**, Klein, D., Dech, S., Wegmann, M., Müller, J., Ullmann, T., & Bevanda, M. (2025). *Assessing multispectral data comparability between sentinel-2 and UAS imagery in the context of forest monitoring* [Conference poster]. ESA Living Planet Symposium, 23st to 27th of June 2025, Vienna, Austria.
