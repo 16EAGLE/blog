@@ -13,9 +13,24 @@ title: Talks & Teaching
 
 *Since 2019, I have a teaching position at the University of Würzburg. In addition, I have been teaching at the AniMove Science Schools for several years. Find out about my talks and teaching below.*
 
-## 2025
+## 2026
 
 <details open>
+  <summary>Guest Lecture **"UAV remote sensing for Arctic winter ecology research"**, [Arctic Winter Ecology MSc., UNIS, Svalbard](https://www.unis.no/courses/ab-329-arctic-winter-ecology/)</summary>
+  <p>In this guest lecture, students from Norway and all over Europe who have come to Svalbard to study Arctic winter ecology, were introduced to UAV remote sensing and geo-analysis for ecological research applications in the high Arctic. The guest lecture was held at the invitation of [Prof. Dr. Simone Lang (UNIS)](https://www.unis.no/staff/simone-lang/), together with [Prof. Dr. Larissa Beumer (UNIS)](https://www.unis.no/staff/larissa-teresa-beumer/), as part of a six-week international [MSc. course on Arctic winter ecology](https://www.unis.no/courses/ab-329-arctic-winter-ecology/). The course segment focused on two applications: On the one hand, students learned how to model the spatial occurrence of *Betula nana* using UAV remote sensing and in situ data collected together with the students in the field. *Betula nana* (dwarf birch) is a deciduous shrub species widely distributed across Arctic and subarctic regions. Due to considerable warming and potential changes in the snow regime over recent years, the course focused on exploring the range of snow depths at which *Betula nana* can be found to understand to which extent *Betula nana* may extend its abundance on Svalbard in future. On the other hand, students learned how to model reindeer foraging potential from UAV remote sensing and in situ data collected together with the students within the course, in particular to understand the effect of snow depth on resource accessibility. Snow depth affects food availability for the Svalbard reindeer, as it restricts access to plants and increases energetic costs of movement and foraging. Thus, students explored the use of remote sensing to quantify the effect of snow depth on foraging patterns, besides other influencing factors. Overall, the course segment consisted of an introduction day, four field days for UAV remote sensing and in situ data acquisition, and a practical analysis day. In the end, students developed independent group projects on the above-mentioned topics, conducting their own analyses that they then presented as research posters.</p>
+  <p>*Duration: 6 sessions (1 introduction day, 4 field days, 1 analysis day)*</p>
+</details>
+
+<details>
+  <summary>Seminar **"Earth Observation in alpine environments"**, [EAGLE MSc., University of Würzburg, at UFS, Zugspitze](https://eagle-science.org)</summary>
+  <p>This course, taught by a team of EORC lecturers at Umweltforschungsstation Schneefernerhaus (UFS) – the highest research station in Germany located at Zugspitze – introduced students to Earth observation of alpine environments. Core focus of the course was the use of UAV remote sensing (LiDAR, multi-spectral) for cm-resolution mapping of micro-topography and rock/vegetation surface characteristics along elevation gradients. Students were shown how both UAV remote sensing and in situ data are collected under sometimes challenging conditions in the high alps in winter by jointly conducting a real-world field data acquisition campaign. In this context, they learned about how the collected data can be used, e.g for deriving variables such as snow depth and snow cover critical to the understanding of geomorphological and ecosystem processes in the Alps. In addition, students were introduced to research conducted at UFS by different institutions across various scientific fields, showcasing the multi-disciplinary potential of the station.</p>
+  <p>*Duration: 3 sessions (full days, 3-days block)*</p>
+</details>
+
+
+## 2025
+
+<details>
   <summary>Invited Talk **"Potentiale von Tier-Umwelt-Interaktionen für die fernerkundliche Forschung: Bewegungs-getrackte Tiere als Geoinformanten"**, [GGW Promotionspreis 2025 / GGW Doctoral Award 2025, Geographische Gesellschaft Würzburg (GGW) / Geographic Society of Würzburg (GGW)](https://www.geographie.uni-wuerzburg.de/ggw/ggw-promotionspreis/)</summary>
   <p>In this talk, I presented contents of my doctoral studies on the potentials of animal-environment interactions for remote sensing research and the use of movement-tracked animals as geoinformants to an audience composed of members of the Geographic Society of Würzburg (GGW), Geography students studying at University of Würzburg, as well as members of the interested public. The talk was given in the context of the [2025 GGW Doctoral Award ceremony](https://www.geographie.uni-wuerzburg.de/ggw/ggw-promotionspreis/) by the Geographical Society of Würzburg, at which I received the GGW 2025 Doctoral Award.</p>
   <p>*Duration: 10 minutes*</p>
